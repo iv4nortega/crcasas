@@ -1,0 +1,83 @@
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+
+			<div class="panel alert-sucess">
+				<form class="pad-form" role="form">
+					<fieldset>
+						<legend>Buscar</legend>
+						<div class="form-group">
+							<label class="control-label" for="type">Tipo</label>
+								<select id='type' class="form-control input-medium">
+									<option value="H">Casa</option>
+									<option value="L">Lote</option>
+									<option value="C">Comercial</option>
+								</select>
+
+						</div>
+
+						<div class="form-group">
+							<label  for="subType">Modalidad</label>
+								<select id="subType" class="form-control input-medium">
+									<option value="true">Venta</option>
+									<option value="false">Alquiler</option>
+								</select>
+						</div>
+
+
+						<div class="form-group">
+							<label class="control-label" for="division1">Provincia</label>
+								<select id="division1" class="form-control input-medium">
+									<option value="1">San Jose</option>
+									<option value="2">Alajuela</option>
+									<option value="3">Cartago</option>
+									<option value="4">Heredia</option>
+									<option value="5">Guanacaste</option>
+									<option value="6">Puntarenas</option>
+									<option value="7">Limon</option>
+								</select>
+
+						</div>
+
+						<div class="form-group">
+							<label class="control-label" for="division2">Canton</label>
+								<select id="division2" class="form-control input-medium">
+								</select>
+						</div>
+
+						<button id="search-btn" type="button" class="btn btn-default" data-loading-text="Buscando...">
+							<i class="fa fa-search" class=""></i>
+							Buscar</button>
+					</fieldset>
+				</form>
+			</div>
+
+			
+		</div>
+		<div class="col-md-9">
+			<!--Body content-->
+
+			<!-- TODO for next version
+                               <button class="btn btn-mini imgbuttons" type="button" style="position:absolute; top:20px; right:18px;"><i class=" icon-tag"></i> Guardar</button>
+                               <button class="btn btn-mini imgbuttons" type="button" style="position:absolute; top:20px; left:18px;"><i class="icon-heart"></i> Me gusta</button> 
+                          -->
+
+			<div id="search-result" class="alert alert-success">Se encontraron 50 propiedades...</div>
+			
+			<div id="masonry">
+
+
+				<div id="adList"></div>
+
+
+			</div>
+
+			<div></div>
+
+		</div>
+	</div>
+
+
+</div>
+

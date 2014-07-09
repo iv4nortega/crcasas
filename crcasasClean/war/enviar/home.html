@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Reenviar anuncio a un amigo</title>
+<meta name="description" content="Reenviar anuncio a un amigo">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<link rel="stylesheet" href="../css/normalize.css">
+<link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="../css/bootstrap-glyphicons.css" rel="stylesheet">
+
+<script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+<style>
+body {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+#fineprint {
+font-size; 1em;
+margin: 2em;
+}
+
+.table th, .table td { 
+     border-top: none;
+     background-color: black; 
+ }
+
+</style>
+
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?1cUr7bJpsKZPvNcqm2lHcW8esT7z6Qr2';z.t=+new Date;$.
+type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+</script>
+<!--End of Zopim Live Chat Script-->
+
+</head>
+<body>
+
+<div class="container">
+
+</div>
+<div class="col-12">
+	<section id="forward" >
+
+		<div class="page-header">
+			<h1>Reenviar a un amigo <small>el anuncio # <span id="adIdTitle"></span></small></h1>
+		</div>
+
+
+		<div id="server-errors"></div>
+
+		
+
+		<form id="forwardForm" role="form" action="/forms/forward" method="post">
+			<label>Quiero reenviar este email a</label>
+			<div class="form-group">
+				<label for="toName1">Nombre</label> <input type="text"
+					class="form-control" id="toName1" name="toName1" placeholder="Nombre">
+			</div>
+			<div class="form-group">
+				<label for="toEmail1">Correo</label> <input type="email"
+					class="form-control" id="toEmail1" name="toEmail1" placeholder="Correo electrónico">
+			</div>
+			<div class="cc" style="display: none">
+				<div class="form-group  ">
+					<label for="toName2">Nombre</label> <input type="text"
+						class="form-control" id="toName2" name="toName2" placeholder="Nombre">
+				</div>
+				<div class="form-group  ">
+					<label for="toEmail2">Correo</label> <input type="email"
+						class="form-control" id="toEmail2" name="toEmail2" placeholder="Correo electrónico">						
+				</div>
+			</div>
+			<div class="cc" style="display: none">
+				<div class="form-group  ">
+					<label for="toName3">Nombre</label> <input type="text"
+						class="form-control" id="toName3" name="toName3" placeholder="Nombre">
+				</div>
+				<div class="form-group  ">
+					<label for="toEmail3">Correo</label> <input type="email"
+						class="form-control" id="toEmail3" name="toEmail3" placeholder="Correo electrónico">						
+				</div>
+			</div>	
+			<div class="cc" style="display: none">
+				<div class="form-group  ">
+					<label for="toName4">Nombre</label> <input type="text"
+						class="form-control" id="toName4" name="toName4" placeholder="Nombre">
+				</div>
+				<div class="form-group  ">
+					<label for="toEmail4">Correo</label> <input type="email"
+						class="form-control" id="toEmail4" name="toEmail4" placeholder="Correo electrónico">						
+				</div>
+			</div>	
+			<div class="cc" style="display: none">
+				<div class="form-group  ">
+					<label for="toName5">Nombre</label> <input type="text"
+						class="form-control" id="toName5" name="toName5" placeholder="Nombre">
+				</div>
+				<div class="form-group  ">
+					<label for="toEmail5">Correo</label> <input type="email"
+						class="form-control" id="toEmail5" name="toEmail5" placeholder="Correo electrónico">						
+				</div>
+			</div>									
+			<a id="oneMore" href="#" data-toggle="tooltip" title="Enviarlo también a alguien más"><span class="glyphicon glyphicon-plus"></span></a>
+			
+			<div class="form-group  ">
+				<label for="subject">Introduce el encabezado del correo (subject)</label> <input type="text"
+					class="form-control" id="subject" name="subject"
+					placeholder="Acabo de recibir este mensaje y creo que te puede resultar interesante">
+			</div>
+			
+			<label for="message">Mis datos</label> 
+
+			<div class="form-group  ">
+				<input type="text" class="form-control" id="fromName" name="fromName" value="" placeholder="Su nombre">
+			</div>
+
+			<div class="form-group  ">
+				<input type="email" class="form-control" id="fromEmail" name="fromEmail" value="" placeholder="Su correo">
+			</div>
+
+			<div class="form-group  ">
+				<label for="security">¿Es Ud. humano?&#32;&#32;<span id="securityQuestion"></span></label> <input type="text"
+					class="form-control" id="security"
+					placeholder="Por seguridad, necesitamos que digite acá el resultado de la operación">
+			</div>
+
+			<div class="form-group " style="display: none">
+				<input type="text" class="form-control" id="adId" name="adId" >
+			</div>
+
+			<button id="submit"  type="submit" class="btn btn-primary" disabled>Enviar</button>
+
+		</form>
+
+	
+	</section>
+</div>
+</div>
+
+	<aside id="fineprint "><br><br>Las direcciones de correo de tus amigos
+		se utilizarán únicamente para reenviarles este correo y nadie más
+		tendrá acceso a ellas.</aside>	
+</div>
+
+	<div id="success-container" class="invisible">
+		<aside>
+			<i class="tick"></i>
+
+		</aside>
+	</div>
+
+
+
+
+
+	<!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+	<!-- Add your site or application content here -->
+
+
+
+
+
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		window.jQuery
+				|| document
+						.write(
+								'<script src="../js/vendor/jquery-1.10.2.min.js"><\/script>')
+	</script>
+	<script src="../js/plugins.js"></script>
+	<script src="../js/bootstrap/bootstrap.min.js"></script>
+	<script src="../js/util.js"></script>
+    <script src="/js/plugins/jquery.form.js"></script> 
+	
+	<script src="../js/enviar.js"></script>
+
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<script>
+		(function(b, o, i, l, e, r) {
+							b.GoogleAnalyticsObject = l;
+							b[l] || (b[l] = function() {
+								(b[l].q = b[l].q || []).push(arguments)
+							});
+							b[l].l = +new Date;
+							e = o.createElement(i);
+							r = o.getElementsByTagName(i)[0];
+							e.src = '//www.google-analytics.com/analytics.js';
+							r.parentNode.insertBefore(e, r)
+						}(window, document, 'script', 'ga'));
+		ga('create', 'UA-23115758-1');
+		ga('send', 'pageview');
+	</script>
+</body>
+</html>

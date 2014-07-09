@@ -1,0 +1,56 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+#fblogin {
+    
+    padding-top:20px;
+    padding-bottom:15px; 
+
+    
+/* 
+display: block;
+height: 27px;
+clear: both;*/
+}
+
+#fblogin * {
+    /* 
+     width:  200px; */
+
+}
+            
+
+
+.fb-comments, .fb-comments iframe[style] {width: 100% !important;}
+
+.comments { 
+
+width: 100% !important; 
+
+font-family: Arial, Helvetica, sans-serif; 
+
+color: #ff6600; 
+
+}
+
+.comments a { color: #ff6600; }
+
+
+
+#user-picture {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    margin-top:10px;
+    margin-bottom:15px;
+    margin-right: 10px;
+}
+
+
+

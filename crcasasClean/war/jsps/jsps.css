@@ -1,0 +1,398 @@
+/*
+
+Primary Color:
+FF6600	CC6633	996600	FF9933	FFCC66
+                        fondo para destacar una area puede ser header inicial
+                Fondo para destacar una area, puede ser el menu, o botonos
+Texto destacado, fondo destacado                
+
+Complementary Color:
+009999	336666	006666	33CCCC	66CCCC
+
+Cafe oscuro (texto?): #993300
+Cafe claro (): #CC6633
+Color vivo (H1, Hover del menu): #FF3300
+Color menos vivo (Menu): #FF6633
+Claro (Columna izquierda): #FF9966
+
+*/
+
+
+// Default
+body,
+html {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica,Arial,sans-serif;
+	color: black;
+	font-size: 90%;
+	height: 100%;
+	background-color:transparent;
+}
+
+
+
+
+
+table {
+    margin-bottom:10px;
+}
+ 
+table tr .title {
+ 	color: #033E6B;
+   	font-weight: normal;
+   	text-align: left;
+    padding:5px; 
+    width:50%;   
+}
+ 
+table tr .text {
+	color: black;
+    padding-left:10px;
+    
+}
+
+
+#wrap {
+	width: 760px;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: white;
+	border: 1px solid grey;
+	//box-shadow: 5px 5px 2px #888888;
+	
+}
+
+#titlebox {
+width:64%;
+
+}
+
+#header {
+	//padding: 10px;
+	//margin: 10px;
+}
+
+#nav {
+	width: 95%;
+	float: left;	
+	//margin: 10px;
+	//margin-left:7px;
+	//margin-right: 7px;
+	//margin-top:2px;
+	//margin-bottom: 13px;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	list-style: none;
+	background-color: #006666;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	//box-shadow: 5px 5px 2px #888888;
+	// ? color: red;
+	
+	 }
+#nav li {
+	float: left; }
+#nav li a {
+	cursor:pointer;
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	border-right: 1px solid #ccc; }
+#nav li a:hover {
+	color: white;
+	background-color: #996600; }
+	
+#nav2 {
+	width: 95%;
+	float: center;	
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	list-style: none;
+    background-color: #996600;
+
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+
+	
+	 }
+#nav2 li {
+	float: center; }
+#nav2 li a {
+	cursor:pointer;
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+    text-align: center;
+    color: white;
+
+	 }
+#nav2 li a:hover {
+
+	background-color: #996600; }	
+
+#main {
+float:left;
+width:60%;
+background-color: white;
+border: 1px solid #888888;
+//margin: 10px;
+//margin-left:5px;
+//margin-right: 1px;
+//margin-top:5px;
+//margin-bottom: 5px;
+}
+
+.shadow {
+  -moz-box-shadow:    5px 5px 3px #888;
+  -webkit-box-shadow: 5px 5px 3px #888;
+  box-shadow:         5px 5px 3px #888;
+}
+
+.capitalize {
+	text-transform:capitalize;
+	height: 25px;
+	}
+
+
+#sidebar {
+float:right;
+width:35%;
+
+}
+
+#footer {
+clear:both;
+padding-top: 20px;
+font-size: 65%;
+
+}
+
+#virtualtour {
+height: 500px;
+}
+
+#video {
+height: 500px;
+}
+
+
+
+
+.leftcontainer {
+width:100%;
+//height:300px;
+}
+
+.rightcontainer {
+//width:100%;
+//height:300px;
+ //padding: 10px;
+
+}
+
+
+.container {
+ //padding: 10px;
+}
+
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+h1 {
+	font-size: 150%;
+	width: 100%;
+	line-height: 1em;
+	line-color: #009999;
+	font-weight: bold;
+	white-space: nowrap;
+	font-style: normal;
+	color: #033E6B;
+}
+
+h2 {
+	color: #033E6B;
+	font-size: 150%;
+	font-weight: 400;
+	border-bottom: 1px solid #CC6633;
+	display: block;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	//line-height: 3em;
+	padding: 0;
+	padding-bottom: 0px;
+	padding-left:4px;
+	padding-right:4px;
+	
+}
+
+h3 {
+	color: #033E6B;
+	font-size: 125%;
+	font-weight: 300;
+	border-bottom: 1px solid #996600;
+	
+	display: block;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	padding: 0;
+	padding-bottom: 0px;
+	padding-left:4px;
+	padding-right:4px;
+	
+}
+
+/* Rules for rows and fields */
+
+.form{
+	background-color: #FFCC66;
+	//margin: 10px;
+	border: 1px solid #66CCCC;
+	padding: 10px;
+}
+
+.form_row {
+    margin-bottom: 10px;
+}
+ 
+.form_last_row {
+    margin-top: 20px;
+}
+ 
+.form_field {
+    display: inline-block;
+    margin-right: 5px;
+}
+ 
+.form_field label {
+    display: block;
+    padding-bottom: 0px;
+	color:#033E6B;
+}
+
+.form_text {
+	color:#033E6B;
+	font-style: italic;
+	font-size: 90%;
+}
+ 
+/* Styling of errors */
+.field_errors {
+    margin: 10px 0 0px;
+    font-size: 11px;
+}
+ 
+.field_errors span {
+    display: inline-block;
+    padding: 5px;
+    background-color: #FFDFE0;
+    color: #FF6600;
+    margin-bottom: 5px;
+}
+ 
+.form_input {
+    font-size: 13px;
+	color:#006666;
+    background-color: white; /* light blue */
+    padding: 2px;	
+	border: 1px solid #FFCC66;
+  	margin: 1px;
+	cursor:pointer;
+
+}
+ 
+.form_input:focus {
+    background-color: white; /* light yellow */
+    border: 1px solid ##66CCCC;
+    	cursor: text;
+    
+}
+ 
+ 
+.form_input:hover {
+  border: 2px solid gray;
+  background-color: ##66CCCC;
+  margin: 0;
+} 
+ 
+		.adNumber
+	{
+	font-style:normal;
+	 font-family: Helvetica, Arial, sans-serif;
+  	font-size: 10px;	
+  	line-height: 10px;
+  	color: #8C7E7E;	
+  }
+	
+ 
+/* Input sizes */
+
+.input_medium {
+    width: 100%;
+}
+.input_large {
+    width: 100%;
+}
+
+.optional_field {
+    background-color: #fff;
+}
+
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #66CCCC;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #66CCCC;
+	box-shadow:inset 0px 1px 0px 0px #66CCCC;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #66CCCC), color-stop(1, #006666) );
+	background:-moz-linear-gradient( center top, #66CCCC 5%, #006666 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#66CCCC', endColorstr='#006666');
+	background-color:#66CCCC;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #006666;
+	display:inline-block;
+	color:white;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	//text-shadow:1px 1px 0px #ffffff;
+	cursor:pointer;
+	
+}.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006666), color-stop(1, #66CCCC) );
+	background:-moz-linear-gradient( center top, #006666 5%, #66CCCC 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006666', endColorstr='#66CCCC');
+	background-color:#66CCCC;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+/* This imageless css button was generated by CSSButtonGenerator.com */
+
+#map_canvas { height: 400px }
+
+@media print {
+.noPrint {
+    display:none;
+}
+}

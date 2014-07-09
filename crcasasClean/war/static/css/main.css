@@ -1,0 +1,365 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/* Center vertically */
+.block {
+  text-align: center;
+}
+ 
+/* The ghost, nudged to maintain perfect centering */
+.block:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+/* The element to be centered, can
+   also be of any width and height */ 
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.movePhotos {
+    cursor: pointer;
+    vertical-align: central;
+}
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.crCasas {
+
+   
+}
+
+h1 {
+    color:  #808080 ;
+}
+
+.box-fixed {
+    width:40px;
+    position:fixed;
+    top:270px;
+    right:0px;
+    z-index:0;
+    border: 1px solid green;
+}
+
+.blog {
+width:100%; height:600px; 
+border-style: none;
+}
+
+.centered {
+text-align: center; 
+width: 600px;
+}
+
+
+#social-btn { 
+ 
+ 
+}
+
+
+
+#arrow-down{
+}
+
+
+/* styles for layout */
+ 
+
+ 
+/* Twitter Bootstrap with Sticky Footer
+    
+    http://www.martinbean.co.uk/bootstrap/sticky-footer/
+    height: 80px;
+    
+        min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -80px;
+     */
+
+html, body {
+    height: 100%;
+}    
+
+
+body {
+            
+                background-color: #ECE8DC;
+                background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAALElEQVQIHWN88+LOfwYk8OXLVwYmJD6YycPDjRAEqYABuEqQChhgQlYBEwQAUMYMlj+hubwAAAAASUVORK5CYII=");
+                background-position: 0 0;
+                background-repeat: repeat;    
+            }
+
+#wrapper {
+  
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -100px;
+        
+}
+
+
+#wrapper > .container {
+    padding-top: 80px;
+}
+
+   #push,
+      #footer {
+        height: 100px;
+      }
+
+      #footer {
+                background-color: #ECE8DC;
+                background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAALElEQVQIHWN88+LOfwYk8OXLVwYmJD6YycPDjRAEqYABuEqQChhgQlYBEwQAUMYMlj+hubwAAAAASUVORK5CYII=");
+                background-position: 0 0;
+                background-repeat: repeat; 
+      }
+
+
+
+   #copyright p {
+        font-size: smaller;
+        margin: 0 auto;
+        text-align: center;
+        color: #aaa;
+    }  
+
+.tab-content {
+    overflow: visible;
+}
+
+#slider 
+{
+    width: 70%;
+    margin: 15px;       
+}
+
+#min, #max {
+    width: 50px;
+    text-align: center;
+
+}
+
+
+
+
+
+a {
+    white-space: nowrap;
+}
+
+.itembackup {
+
+  width: 150px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 12px;
+
+}
+
+.boxborders2
+{
+border:  1px solid grey;
+padding: 25px;
+
+}
+
+.ispadding
+{
+padding:  20px ;
+
+}
+
+.boxborders
+{
+box-sizing:border-box;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box; /* Safari */
+border:  1px solid white;
+padding-left: 20px;
+
+}
+
+.myItem{
+	width: 192px;
+	padding: 15px 15px 0;
+	font-size: 11px;
+	background-color: white;
+	box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+	-moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+	-webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+.myItem:hover
+{ 
+background:#B8B8B8;
+}
+
+.item{
+	width: 192px;
+	padding: 15px 15px 0;
+	font-size: 11px;
+	background-color: white;
+	box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+	-moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+	-webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+	margin-right:20px;
+	margin-bottom:20px;
+    cursor:  pointer;
+}
+
+.item:hover
+{ 
+background:#B8B8B8;
+}
+.caption { margin:3px; text-align:center;width:100%}
+
+.description{
+	padding: 10px 0px 0px 0px;
+}
+.convo{
+	margin: 0 -15px;
+        padding: 10px 15px;
+        background-color: #F2F0F0;
+        color: #8C7E7E;
+}
+.convo img {
+        width: 30px;
+        height: 30px;
+        float:left;
+        margin-right:5px;
+}
+.convo p a{
+	color: #8C7E7E;
+	font-weight:bold;
+}
+
+.imgbuttons { display: none; }
+.item:hover .imgbuttons { display: block; }
+
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+
+.capitalize {
+    
+    text-transform:capitalize;
+}
+
+#map_canvas { width:500px;height:300px; text-align: center;}
+#map_canvas label { width: auto; display:inline; }
+#map_canvas img { max-width: none; max-height: none; }
+
+
+.borderRight{
+   padding-right:20px; 
+   border-right: 1px solid #ccc;
+}
+
+
+.tabMinHeight {
+    min-height: 300px;
+}
+
+
+img.max_height {
+  max-height: 80px;
+}
+
+#galleria{height:467px; }
+
+/* ==========================================================================
+   CSS for landing page
+   ========================================================================== */
+
+
+/* Custom container */
+.container-narrow {
+margin: 0 auto;
+max-width: 700px;
+}
+.container-narrow > hr {
+margin: 30px 0;
+}
+        
+/* Main marketing message and sign up button */
+.jumbotron {
+margin: 60px 0;
+text-align: center;
+}
+.jumbotron h1 {
+font-size: 72px;
+line-height: 1;
+}
+.jumbotron .btn {
+font-size: 21px;
+padding: 14px 24px;
+}
+        
+/* Supporting marketing content */
+.marketing {
+margin: 60px 0;
+}
+.marketing p + h4 {
+margin-top: 28px;
+}
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+      @media (max-width:480px) {
+   .wrapper {
+      height:auto;
+   }
+      
+ 
+}
+      

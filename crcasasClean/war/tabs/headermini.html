@@ -1,0 +1,41 @@
+
+<nav id="mainTab" class="navbar navbar-inverse navbar-fixed-top myNavBar" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a id="homeLink" class="navbar-brand  hashpage" href="#home" rel='tooltip'
+							data-placement='bottom'
+							data-toggle="tab"
+							data-original-title='Ir a pagina principal'>crCasas.com</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-right">
+						<li>
+							<button id='login-btn' class='btn btn-primary navbar-btn enableAfterFBInit hideOnFBconnected showOnFBnot_authorized showOnFBunknown'
+								type='button' rel='tooltip' data-placement='bottom'
+								data-original-title='Ingrese a crCasas usando Facebook Connect'>
+								<i class='icon-user icon-white'></i>&nbsp;&nbsp;Ingresar
+							</button>
+						</li>
+
+						<li id='user-picture-canvas'  style="display: none;" class="showOnFBconnected hideOnFBnot_authorized hideOnFBunknown"><img id='user-picture' src=""
+							alt="crcasas"></li>
+						<li id='logout-btn' class="dropdown showOnFBconnected hideOnFBnot_authorized hideOnFBunknown" style="display: none;"><a
+							id="user-name" href="#" class="dropdown-toggle"
+							data-toggle="dropdown"> </a>
+							<ul class="dropdown-menu">
+								<li><a id="logout-clk" href="#home">Salir</a></li>
+							</ul></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

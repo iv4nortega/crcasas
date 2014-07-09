@@ -1,0 +1,13 @@
+{
+    "title":"Customer Profile",
+    "description":"Alpaca Farm Ice Cream Customer Profile Form.",
+    "type":"object",
+    "properties":{
+        "name":{
+            "title":"Name",
+            "description":"Enter your full name.",
+            "type":"string",
+            "required":true
+        }
+    }
+}

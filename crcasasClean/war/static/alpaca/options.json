@@ -1,0 +1,18 @@
+{
+    "renderForm":true,
+    "form":{
+        "attributes":{
+            "action":"",
+            "method":"post"
+        },
+        "buttons":{
+            "submit":{},
+            "reset":{}
+        }
+    },
+    "fields":{
+        "name":{
+            "type":"text",
+        }
+    }
+}

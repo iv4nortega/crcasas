@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes autoGenerate="true">
+
+     <datastore-index kind="Ad" ancestor="false">
+        <property name="agentKey" direction="asc" />
+        <property name="status" direction="desc" />
+    </datastore-index>
+    
+     <datastore-index kind="Ad" ancestor="false">
+        <property name="hasImage" direction="asc" />
+        <property name="creationDate" direction="desc" />
+    </datastore-index>
+ 
+      <datastore-index kind="Ad" ancestor="false">
+        <property name="status" direction="asc" />
+        <property name="creationDate" direction="desc" />
+    </datastore-index>
+
+      <datastore-index kind="Ad" ancestor="false">
+        <property name="adType" direction="asc" />
+       <property name="status" direction="asc" />        
+        <property name="creationDate" direction="desc" />
+    </datastore-index>
+       
+    <datastore-index kind="Ad" ancestor="false">
+  <property name="status" direction="asc" />     
+  <property name="hasImage" direction="asc" />
+  <property name="searchPriority" direction="asc" />
+</datastore-index>
+
+     <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+         <property name="districtId" direction="asc" />  
+        <property name="localPrice" direction="asc" />                  
+    </datastore-index>
+    
+    <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+        <property name="localPrice" direction="asc" />               
+    </datastore-index>
+    
+     <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />             
+    </datastore-index>   
+    
+        <datastore-index kind="Ad" ancestor="false">
+         <property name="status" direction="asc" />                 
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />  
+          <property name="searchPriority" direction="asc" />              
+    </datastore-index>   
+    
+ 
+     <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="rent" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />             
+    </datastore-index>     
+ 
+      <datastore-index kind="Ad" ancestor="false">
+         <property name="status" direction="asc" /> 
+        <property name="propertyType" direction="asc" />
+        <property name="rent" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />   
+  <property name="searchPriority" direction="asc" />                   
+                  
+    </datastore-index>      
+         <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+    </datastore-index>   
+    
+
+     <datastore-index kind="Ad" ancestor="false">
+       <property name="status" direction="asc" />           
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" /> 
+   <property name="searchPriority" direction="asc" />                
+    </datastore-index>   
+ 
+     <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="rent" direction="asc" />
+         <property name="stateId" direction="asc" />       
+    </datastore-index>    
+    
+         <datastore-index kind="Ad" ancestor="false">
+       <property name="status" direction="asc" />                      
+        <property name="propertyType" direction="asc" />
+        <property name="rent" direction="asc" />
+         <property name="stateId" direction="asc" />  
+  <property name="searchPriority" direction="asc" />               
+    </datastore-index>  
+
+    
+    <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />   
+         <property name="localPrice" direction="asc" />                    
+    </datastore-index>
+    
+    
+        <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+         <property name="districtId" direction="asc" />  
+        <property name="localRentPrice" direction="asc" />                  
+    </datastore-index>
+    
+    <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+        <property name="localRentPrice" direction="asc" />               
+    </datastore-index>
+    
+    <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />   
+         <property name="localRentPrice" direction="asc" />                    
+    </datastore-index>
+  
+    <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+         <property name="districtId" direction="asc" />  
+        <property name="dolPrice" direction="asc" />                  
+    </datastore-index>
+    
+    <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+        <property name="dolPrice" direction="asc" />               
+    </datastore-index>
+    
+    <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />   
+         <property name="dolPrice" direction="asc" />                    
+    </datastore-index>
+    
+        <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+         <property name="districtId" direction="asc" />  
+        <property name="dolRentPrice" direction="asc" />                  
+    </datastore-index>
+    
+    <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+        <property name="dolRentPrice" direction="asc" />               
+    </datastore-index>
+    
+    <datastore-index kind="Ad" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />   
+         <property name="dolRentPrice" direction="asc" />                    
+    </datastore-index>
+
+        <datastore-index kind="Ad" ancestor="false">
+        <property name="countryId" direction="asc" />         
+        <property name="source" direction="asc" />      
+        <property name="sourceKey" direction="asc" />
+     </datastore-index>
+     
+ 
+  
+      <datastore-index kind="AdWeb" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+         <property name="districtId" direction="asc" />  
+        <property name="localPrice" direction="asc" />                  
+    </datastore-index>
+    
+    <datastore-index kind="AdWeb" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+        <property name="localPrice" direction="asc" />               
+    </datastore-index>
+    
+    <datastore-index kind="AdWeb" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />   
+         <property name="localPrice" direction="asc" />                    
+    </datastore-index>
+    
+        <datastore-index kind="AdWeb" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+         <property name="districtId" direction="asc" />  
+        <property name="localRentPrice" direction="asc" />                  
+    </datastore-index>
+    
+    <datastore-index kind="AdWeb" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+        <property name="localRentPrice" direction="asc" />               
+    </datastore-index>
+    
+    <datastore-index kind="AdWeb" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />   
+         <property name="localRentPrice" direction="asc" />                    
+    </datastore-index>
+  
+    <datastore-index kind="AdWeb" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+         <property name="districtId" direction="asc" />  
+        <property name="dolPrice" direction="asc" />                  
+    </datastore-index>
+    
+    <datastore-index kind="AdWeb" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+        <property name="dolPrice" direction="asc" />               
+    </datastore-index>
+    
+    <datastore-index kind="AdWeb" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />   
+         <property name="dolPrice" direction="asc" />                    
+    </datastore-index>
+    
+        <datastore-index kind="AdWeb" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+         <property name="districtId" direction="asc" />  
+        <property name="dolRentPrice" direction="asc" />                  
+    </datastore-index>
+    
+    <datastore-index kind="AdWeb" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />       
+        <property name="countyId" direction="asc" />
+        <property name="dolRentPrice" direction="asc" />               
+    </datastore-index>
+    
+    <datastore-index kind="AdWeb" ancestor="false">
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+         <property name="stateId" direction="asc" />   
+         <property name="dolRentPrice" direction="asc" />                    
+    </datastore-index>
+    
+    <datastore-index kind="AdWeb" ancestor="false">
+        <property name="source" direction="asc" />
+        <property name="updateDate" direction="desc" />                    
+    </datastore-index>
+    
+    <datastore-index kind="AdWeb" ancestor="false">
+        <property name="districtId" direction="asc" />      
+        <property name="propertyType" direction="asc" />
+        <property name="sale" direction="asc" />
+    </datastore-index>
+
+    <datastore-index kind="AdWeb" ancestor="false">
+        <property name="source" direction="asc" />      
+        <property name="sourceKey" direction="asc" />
+     </datastore-index>    
+     
+         <datastore-index kind="AdWeb" ancestor="false">
+        <property name="countryId" direction="asc" />         
+        <property name="source" direction="asc" />      
+        <property name="sourceKey" direction="asc" />
+        
+     </datastore-index> 
+     
+   <datastore-index kind="AdWeb" ancestor="false">
+        <property name="source" direction="asc" />      
+        <property name="updateDate" direction="asc" />
+     </datastore-index>   
+    
+    <datastore-index kind="ImageDataBase" ancestor="false">
+        <property name="adId" direction="asc" />      
+        <property name="displayOrder" direction="asc" />
+     </datastore-index>     
+     
+    
+</datastore-indexes>

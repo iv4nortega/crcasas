@@ -1,0 +1,11 @@
+
+  .thumbnail:hover .delete{display:block}
+.delete{
+  position : absolute;
+    display:none;
+    top:20%; 
+    width:40px;
+    margin:0 auto; left:0px;
+    right:0px;
+    z-index:100
+}     

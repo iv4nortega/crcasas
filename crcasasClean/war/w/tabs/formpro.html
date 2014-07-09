@@ -1,0 +1,685 @@
+<!--
+
+https://app.divshot.com/#/pages/514f91dc434dd10012000efc
+
+-->
+
+<div id="newAdTab" class="alert alert-block ">
+	<div class="row">
+
+		<div class="span12 offset1">
+			<div class="row">
+				<div class="span10">
+					<h3 id="formAdTitle" class="text-center">Ingresar un anuncio
+						nuevo</h3>
+					<h4 id="formAdSubTitle" class="span10 text-center">Complete la
+						informacion de cada seccion</h4>
+					<br>
+				</div>
+			</div>
+			<div class="row"></div>
+			<div class="row">
+				<div class="span10">
+
+
+					<div class="accordion" id="accordionForm">
+
+						<form id="formAd" class="form-horizontal" method="post"
+							action="http://www.crcasas.com/forms/ad">
+
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse"
+										data-parent="#accordionForm" href="#accordion1"> Tipo de
+										Propiedad &raquo;</a>
+								</div>
+								<div id="accordion1" class="accordion-body collapse in">
+									<div class="accordion-inner">
+										<div class="row">
+											<div class="span5">
+												<div class="control-group">
+													<label class="control-label">Modalidad</label>
+													<div class="controls">
+														<select name="saleAd">
+															<option value="true">Venta</option>
+															<option value="false">Alquiler</option>
+														</select>
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Tipo de propiedad</label>
+													<div class="controls">
+														<select id="propertyTypeAd" name="propertyTypeAd">
+															<option value="H">Casa</option>
+															<option value="L">Lote</option>
+															<option value="C">Comercial</option>
+															<option value="V">Vacaciones</option>
+															<option value="P">Proyectos</option>
+														</select>
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Subtipo de propiedad</label>
+													<div class="controls">
+														<select id="propertySubTypeAd" name="propertySubTypeAd">
+															<option value="H">Casa</option>
+															<option value="A">Apartamento</option>
+															<option value="C">Condominio</option>
+															<option value="B">Habitaciones</option>
+														</select>
+													</div>
+												</div>
+												<div class="control-group houseLikeCG commLikeCG">
+													<label class="control-label">Nueva o usada?</label>
+													<div class="controls">
+														<select name="listingTypeAd">
+															<option value="R">Usada</option>
+															<option value="N">Nueva</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											<div class="span4">
+												<div class="alert alert-success">
+													<b>Consejo.</b> Un buen anuncio es su primer paso firme
+													hacia una venta exitosa. <br> Por eso incluya toda la
+													informacion relevante que tenga disponible.
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse"
+										data-parent="#accordionForm" href="#accordion2"> Datos del
+										Vendedor &raquo;</a>
+								</div>
+								<div id="accordion2" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row">
+											<div class="span5">
+												<div class="control-group">
+													<label class="control-label">Nombre</label>
+													<div class="controls">
+														<input id="firstNameAd" type="text" class="input-large"
+															name="firstNameAd" readonly="">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Apellidos</label>
+													<div class="controls">
+														<input id="lastNameAd" type="text" class="input-large"
+															name="lastNameAd" readonly="">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Telefono</label>
+													<div class="controls">
+														<input type="text" class="input-medium specialFields"
+															name="phoneAd">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Correo</label>
+													<div class="controls">
+														<input id="emailAd" type="text" class="input-large"
+															readonly="" name="emailAd">
+													</div>
+												</div>
+
+												<div class="control-group">
+													<label class="control-label">Es Corredor de Bienes
+														Raices?</label>
+													<div class="controls">
+														<label class="checkbox"> <input type="checkbox"
+															name="agentAd" value="on"> Si
+														</label>
+
+													</div>
+												</div>
+
+
+
+												<div class="control-group">
+													<label class="control-label">Compania</label>
+													<div class="controls">
+														<input type="text" class="input-large" name="companyAd">
+													</div>
+												</div>
+											</div>
+											<div class="span4">
+												<div class="alert alert-success">Mas adelante, en la
+													seccion de Privacidad, podra controlar si se muestra o no
+													su nombre, su correo, su telefono o el nombre de su
+													compania.</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse"
+										data-parent="#accordionForm" href="#accordion3"> Direccion
+										de la Propiedad &raquo;</a>
+								</div>
+								<div id="accordion3" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row">
+											<div class="span4">
+												<div class="control-group">
+													<label class="control-label">Provincia</label>
+													<div class="controls">
+														<select id="newDivision1" name="stateIdAd">
+															<option value="1">San Jose</option>
+															<option value="2">Alajuela</option>
+															<option value="3">Cartago</option>
+															<option value="4">Heredia</option>
+															<option value="5">Guanacaste</option>
+															<option value="6">Puntarenas</option>
+															<option value="7">Limon</option>
+														</select>
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Canton</label>
+													<div class="controls">
+														<select id="newDivision2" name="countyIdAd"></select>
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Ciudad</label>
+													<div class="controls">
+														<input type="text" class="input-large" name="cityAd">
+													</div>
+												</div>
+												<div class="control-group houseLikeCG">
+													<label class="control-label">Residencial</label>
+													<div class="controls">
+														<input type="text" class="input-large specialFields"
+															name="residentialAd">
+													</div>
+												</div>
+											</div>
+											<div class="span5">
+												<div class="control-group">
+													<label class="control-label">Direccion</label>
+													<div class="controls">
+														<textarea class="input-large specialFields"
+															name="addressAd" rows="8"></textarea>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-group" style="display: none;">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse"
+										data-parent="#accordionForm" href="#accordion4"> Mapa
+										&raquo;</a>
+								</div>
+								<div id="accordion4" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="control-group">
+											<label class="control-label">Incluir mapa de Google?</label>
+											<div class="controls">
+												<label class="radio inline" for="radio"> <input
+													type="radio" value="true" id="loadMapYes" name="loadMap">
+													<span>Si</span>
+												</label> <label class="radio inline" for="radio"> <input
+													type="radio" value="false" id="loadMapNo" name="loadMap"
+													checked="checked"> <span>No</span>
+												</label>
+											</div>
+										</div>
+										<div id="googleMap">
+											<div class="row-fluid">
+												<div class="span3">
+													<!--Sidebar content-->
+													<div class="alert alert-success">Mueva el marcador a
+														la ubicacion de la propiedad.</div>
+													<a id="getDivision2" class="btn" data-toggle="tooltip"
+														title="Mueve el marcador al canton definido en la direccion">Ir
+														al canton</a> <br> <br> <a id="getPosition"
+														class="btn" data-toggle="tooltip"
+														title="Mueve el marcador a la posicion donde esta Ud. actualmente">Ir
+														a mi ubicacion</a>
+												</div>
+												<div class="offset1 span5">
+													<!--Body content-->
+													<div id="map_canvas"></div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse"
+										data-parent="#accordionForm" href="#accordion5">
+										Caracteristicas &raquo;</a>
+								</div>
+								<div id="accordion5" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row">
+											<div class="span5">
+												<div
+													class="control-group  houseLikeCG  landLikeCG commLikeCG">
+													<label class="control-label">Terreno en &nbsp;mts2</label>
+													<div class="controls">
+														<input class="input-mini specialFields positive-integer"
+															name="lotSizeAd" value="0">
+													</div>
+												</div>
+												<div
+													class="control-group  houseLikeCG landLikeCG commLikeCG">
+													<label class="control-label">Frente del terreno en
+														mts2</label>
+													<div class="controls">
+														<input class="input-mini specialFields positive-integer"
+															name="frontSizeAd" value="0">
+													</div>
+												</div>
+												<div class="control-group  houseLikeCG commLikeCG">
+													<label class="control-label">Construccion en mts2</label>
+													<div class="controls">
+														<input class="input-mini specialFields positive-integer"
+															name="constructionSizeAd" value="0">
+													</div>
+												</div>
+												<div class="control-group houseLikeCG">
+													<label class="control-label">Habitaciones</label>
+													<div class="controls">
+														<input type="number"
+															class="input-mini  specialFields positive-integer"
+															name="bedRoomsAd" value="2">
+													</div>
+												</div>
+											</div>
+											<div class="span4">
+												<div class="control-group  houseLikeCG">
+													<label class="control-label">Banos</label>
+													<div class="controls">
+														<input type="number"
+															class="input-mini  specialFields positive-integer"
+															name="bathRoomsAd" value="1">
+													</div>
+												</div>
+												<div class="control-group  houseLikeCG">
+													<label class="control-label">Medios banos</label>
+													<div class="controls">
+														<input type="number"
+															class="input-mini  specialFields positive-integer"
+															name="partialBathsAd" value="0">
+													</div>
+												</div>
+												<div class="control-group  houseLikeCG commLikeCG">
+													<label class="control-label">Pisos</label>
+													<div class="controls">
+														<input type="number"
+															class="input-mini  specialFields positive-integer"
+															name="floorsAd" value="1">
+													</div>
+												</div>
+												<div class="control-group  houseLikeCG commLikeCG">
+													<label class="control-label">Cocheras</label>
+													<div class="controls">
+														<input type="number"
+															class="input-mini  specialFields positive-integer"
+															name="garagesAd" value="1">
+													</div>
+												</div>
+												<div class="control-group houseLikeCG commLikeCG">
+													<label class="control-label">A&ntilde;o de
+														Construccion</label>
+													<div class="controls">
+														<input class="input-mini  specialFields positive-integer"
+															id="yearBuiltAd" name="yearBuiltAd" placeholder="1999">
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse"
+										data-parent="#accordionForm" href="#accordion6">
+										Descripcion &raquo;</a>
+								</div>
+								<div id="accordion6" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row">
+											<div class="span5">
+												<div class="control-group">
+													<label class="control-label" for="titleAd">Titulo del anuncio</label>
+													<div class="controls">
+														<input id="titleAd" type="text"
+															class="input-xlarge  specialFields titleAd"  name="titleAd"
+															required>
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Descripcion de la
+														&nbsp;propiedad</label>
+													<div class="controls">
+														<textarea class="input-block-level  specialFields"
+															name="descriptionAd" rows="8" required></textarea>
+													</div>
+												</div>
+											</div>
+											<div class="span4">
+												<div class="alert alert-success">El titulo es el texto
+													que aparecera en los listados de anuncios. Cree un titulo
+													llamativo para que los compradores se interesen y le den
+													click a su anuncio.</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse"
+										data-parent="#accordionForm" href="#accordion7"> Precio
+										&raquo;</a>
+								</div>
+								<div id="accordion7" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row">
+											<div class="span5">
+												<div class="control-group">
+													<label class="control-label">Moneda</label>
+													<div class="controls">
+														<select name="localCurrencyAd">
+															<option value="TRUE">Colones</option>
+															<option value="FALSE">Dolares</option>
+														</select>
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label" for="priceAd">Precio</label>
+													<div class="controls">
+														<input
+															class="input-medium  specialFields positive-integer priceAd"
+															id="priceAd" name="priceAd"  value="0"
+															required>
+													</div>
+												</div>
+											</div>
+											<div class="span5"></div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse"
+										data-parent="#accordionForm" href="#accordion9"> Video
+										&raquo;</a>
+								</div>
+								<div id="accordion9" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row">
+											<div class="span5">
+												<h6>Ingrese el Url de su video YouTube.</h6>
+												<input type="text" id="youTube1Url"
+													class="input-xlarge  specialFields" name="video01Ad">
+												<a class="btn btn-link btn-mini" id="deleteYouTube"
+													data-toggle="tooltip"
+													title="Elimina el video en su anuncio">Borrar</a> <br>
+												<h6>
+													<span style="font-weight: normal;"><i>Por
+															ejemplo: http://www.youtube.com/watch?v=f111MVfWURQ</i></span>
+												</h6>
+												<br> <a class="btn" id="btnYouTube1"
+													data-toggle="tooltip" title="Cargar el video a su anuncio">Cargar
+													video</a> <br> <br>
+
+											</div>
+											<div class="span4">
+												<div class="alert alert-success">
+
+													<b>Consejo!</b> &nbsp;Para que su anuncio sea mas atractivo
+													cree un video con sus fotos usando&nbsp;&nbsp; <a
+														href="http://windows.microsoft.com/en-us/windows-live/movie-maker-get-started"
+														target="_blank">Windows Movie Maker</a>, software
+													gratuito. <br> Un ejemplo de un video creado en pocos
+													minutos con Windows Movie Maker se muestra en el vinculo
+													siguiente: <a
+														href="http://www.youtube.com/watch?v=f111MVfWURQ"
+														target="_blank">Video</a>
+												</div>
+												<br> <br>
+												<div name="youTube1" id="youTube1"></div>
+											</div>
+										</div>
+										<input id="latAd" type="hidden" name="latAd"
+											class="specialFields"> <input id="lngAd"
+											type="hidden" name="lngAd" class="specialFields"> <input
+											id="adIdAd" type="hidden" name="adIdAd" class="specialFields">
+										<input id="viewCountAd" type="hidden" name="viewCountAd"
+											class="specialFields"> <input id="actionAd"
+											type="hidden" name="actionAd"> <input id="adTypeAd"
+											type="hidden" name="adTypeAd" class="specialFields">
+										<input id="statusAd" type="hidden" name="statusAd"
+											class="specialFields"> <input id="fbIdAd"
+											type="hidden" name="fbIdAd"> <input id="formAdSubmit"
+											type="submit" value="Submit" style="visibility: hidden">
+
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse"
+										data-parent="#accordionForm" href="#accordion10">
+										Privacidad &raquo;</a>
+								</div>
+								<div id="accordion10" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row">
+											<div class="span5">
+
+												<div class="control-group">
+													<label class="control-label">Mostrar su nombre?</label>
+													<div class="controls">
+														<label class="checkbox"> <input type="checkbox"
+															name="showNameAd" checked="checked"> Si
+														</label>
+													</div>
+												</div>
+
+												<div class="control-group">
+													<label class="control-label">Mostrar su numero de
+														telefono?</label>
+													<div class="controls">
+														<label class="checkbox"> <input type="checkbox"
+															name="showPhoneAd" checked="checked"> Si
+														</label>
+													</div>
+												</div>
+
+												<div class="control-group">
+													<label class="control-label">Mostrar su correo?</label>
+													<div class="controls">
+														<label class="checkbox"> <input type="checkbox"
+															name="showEmailAd" checked="checked"> Si
+														</label>
+													</div>
+												</div>
+
+
+
+											</div>
+
+
+
+
+											<div class="span4">
+												<div class="alert alert-success">
+													<b>Consejo!</b> &nbsp;En la mayoria de los casos es
+													recomendable que el anuncio muestre su nombre y su
+													telefono. Si le preocupa recibir corrreos no deseados
+													(spam), se recomienda no mostrar el correo. Su anuncio en
+													crCasas permite que los Clientes lo contacten por correo
+													aun cuando su correo no se muestre.
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						</form>
+
+
+						<div class="accordion" id="accordionPhotos" >
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse"
+										data-parent="#accordionForm" href="#accordion8"> Fotos
+										&raquo;</a>
+								</div>
+								<div id="accordion8" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div>
+
+											<div class="container-fluid">
+
+												<div id="photosFormContainer">
+													<div class="row-fluid">
+														<ul id="photosRow1" class='thumbnails connectedSortable'>
+
+														</ul>
+													</div>
+
+
+												</div>
+												<div class="row-fluid">
+
+
+													<hr>
+													
+													<div class="span5">
+													
+													<form id="frmPhoto" action="" method="post"
+														enctype="multipart/form-data" class="form-horizontal">
+
+														<div class="fileupload fileupload-new"
+															data-provides="fileupload">
+															<div class="fileupload-new thumbnail"
+																style="width: 200px; height: 150px;">
+																<img
+																	src="/w/img/addphotos.gif" />
+															</div>
+															<div
+																class="fileupload-preview fileupload-exists thumbnail"
+																style="max-width: 200px; max-height: 150px; line-height: 20px;"></div>
+															<div>
+																<span class="btn btn-file"><span
+																	class="fileupload-new">Seleccionar</span><span
+																	class="fileupload-exists">Cambiar</span><input
+																	id="fileItem" type="file" name="fileItem" /></span> <a
+																	id="btnSendPhoto"
+																	class="btn fileupload-exists btn-primary">Enviar</a> <a
+																	id="fileRemove" class="btn fileupload-exists"
+																	data-dismiss="fileupload" style="display: none;">Remove</a>
+															</div>
+														</div>
+
+														<input id="frmPhotoSubmit" type="submit" value="Submit"
+															style="display: none;" />
+													</form>													
+													</div>
+													
+													<div class="span4">
+													
+													<div class="alert alert-success">
+														Seleccione la foto y despues presione el boton Enviar.
+														Espere un momento mientras la foto llega a nuestro
+														servidor.<br> La foto aparecera de nuevo una vez
+														llegue al servidor. En ese momento podra incluir mas
+														fotos.<br> Tambien podra cambiar el orden de las
+														fotos usando drag&drop o eliminarlas.
+													</div>													
+													</div>
+													
+																										
+
+
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+				</div>
+
+
+			</div>
+
+			<div id="formBtns1Container" class="row">
+				<div class="span2"></div>
+				<div class="span6">
+					<button id="btnCancelAd" class="btn " type="button">Cancelar</button>
+					<button id="btnContinueAd" class="btn btn-primary pull-right"
+						type="button">Continuar</button>
+				</div>
+				<div class="span2"></div>
+			</div>
+			<br>
+			<div id="saveSucessAlert" class="row sucess" style="display: none;">
+				<div class="span2"></div>
+				<div class="span6">
+					<div class="alert alert-success">
+					<button type="button" class="close" data-dismiss="alert">&times;</button>
+					La informacion de su anuncio fue guardada.					
+					</div>
+				</div>
+				<div class="span2"></div>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+
+

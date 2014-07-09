@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+
+     <cron>
+    	<url>/tasks/queuebigtasks</url>
+    	<description>bigtasks every day</description>
+    	<schedule>every day 4:00</schedule>
+  	</cron>
+  	
+  	<cron>
+    	<url>/tasks/queue1</url>
+    	<description>Queue1 every day</description>
+    	<schedule>every day 2:30</schedule>
+  	</cron>
+  	
+  	<cron>
+    	<url>/tasks/queue2</url>
+    	<description>Queue2 every day</description>
+    	<schedule>every day 1:00</schedule>
+  	</cron>
+  	
+  	  <cron>
+    	<url>/tasks/queuemashup3</url>
+    	<description>Queue3 every day</description>
+    	<schedule>every day 0:30</schedule>
+  	</cron>
+</cronentries>

@@ -1,0 +1,527 @@
+<!--
+
+https://app.divshot.com/#/pages/514f91dc434dd10012000efc
+
+-->
+
+<div id="newAdTab" class="alert alert-block alert-error">
+        <button id="closeNewAd" type="button" class="close" data-toggle="tooltip" title="Cancela los cambios y regresa a mis anuncios">&times;</button>
+    <div class="row">
+
+        <div class="span12 offset1">
+          <div class="row">
+            <div class="span10">
+              <h3 id="formHeader" class="text-center">Nuevo anuncio</h3>
+            </div>
+          </div>
+
+          <div class="row">
+              <div class="span10">
+
+            <form id="formAd" class="form-horizontal" method="post" action="http://www.crcasas.com/forms/ad">
+              <ul id="tabForm" class="nav nav-tabs">
+                <li class="active">
+                  <a href="#page1" data-toggle="tab">Propiedad</a> 
+                </li>
+                <li>
+                  <a href="#page2" data-toggle="tab">Vendedor</a> 
+                </li>
+                <li>
+                  <a href="#page3" data-toggle="tab">Direccion</a> 
+                </li>
+                <li>
+                  <a href="#page4" data-toggle="tab">Mapa</a> 
+                </li>
+                <li>
+                  <a href="#page5" data-toggle="tab">Caracteristicas</a> 
+                </li>
+                <li>
+                  <a href="#page6" data-toggle="tab">Anuncio</a> 
+                </li>
+                <li>
+                  <a href="#page7" data-toggle="tab">Precio</a> 
+                </li>
+                <li>
+                  <a href="#page8" data-toggle="tab">Fotos</a> 
+                </li>
+                <li>
+                  <a href="#page9" data-toggle="tab">Videos</a> 
+                </li>
+                <li>
+                  <a href="#page10" data-toggle="tab">Privacidad</a> 
+                </li>
+              </ul>
+              <div class="tab-content  tabMinHeight">
+                <div class="tab-pane active" id="page1">
+                  <div class="row">
+                    <div class="span5">
+                      <div class="control-group">
+                        <label class="control-label">Modalidad</label>
+                        <div class="controls">
+                          <select name="saleAd">
+                            <option value="true">Venta</option>
+                            <option value="false">Alquiler</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Tipo de propiedad</label>
+                        <div class="controls">
+                          <select id="propertyTypeAd" name="propertyTypeAd">
+                            <option value="H">Casa</option>
+                            <option value="L">Lote</option>
+                            <option value="C">Comercial</option>
+                            <option value="V">Vacaciones</option>
+                            <option value="P">Proyectos</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Subtipo de propiedad</label>
+                        <div class="controls">
+                          <select id="propertySubTypeAd" name="propertySubTypeAd">
+                            <option value="H">Casa</option>
+                            <option value="A">Apartamento</option>
+                            <option value="C">Condominio</option>
+                            <option value="B">Habitaciones</option>
+                            <option value="V">Vacaciones</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Nueva o usada?</label>
+                        <div class="controls">
+                          <select name="listingTypeAd">
+                            <option value="R">Usada</option>
+                            <option value="N">Nueva</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span5">
+                      <div class="alert">
+                        <button type="button" class="close" data-dismiss="alert">×</button>
+                        <b>Consejo.</b> Un buen anuncio es su primer paso firme hacia una venta exitosa.
+                        <br> Por eso incluya toda la informacion relevante que tenga disponible.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane " id="page2">
+                  <div class="row">
+                    <div class="span5">
+                      <div class="control-group">
+                        <label class="control-label">Nombre</label>
+                        <div class="controls">
+                          <input id="firstNameAd" type="text" class="input-large" name="firstNameAd"
+                          readonly=""> 
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Apellidos</label>
+                        <div class="controls">
+                          <input id="lastNameAd" type="text" class="input-large" name="lastNameAd"
+                          readonly=""> 
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Telefono</label>
+                        <div class="controls">
+                          <input type="text" class="input-medium specialFields" name="phoneAd"> 
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Correo</label>
+                        <div class="controls">
+                          <input id="emailAd" type="text" class="input-large" readonly="" name="emailAd"> 
+                        </div>
+                      </div>
+                      <label class="checkbox pull-right inline" for="checkbox">
+                        <input type="checkbox" name="agentAd" checked="checked" value="on">
+                        <span>Es Corredor de Bienes Raices?</span>
+                        <span></span>
+                        <span></span> 
+                      </label>
+                    </div>
+                    <div class="span5">
+                      <div class="alert alert-info">
+                        <button type="button" class="close" data-dismiss="alert">×</button>Mas adelante, en la seccion de Privacidad, podra controlar si
+                        se muestra o no su nombre, su correo o su telefono.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="page3">
+                  <div class="row">
+                    <div class="span5">
+                      <div class="control-group">
+                        <label class="control-label">Provincia</label>
+                        <div class="controls">
+                          <select id="newDivision1" name="stateIdAd">
+                            <option value="1">San Jose</option>
+                            <option value="2">Alajuela</option>
+                            <option value="3">Cartago</option>
+                            <option value="4">Heredia</option>
+                            <option value="5">Guanacaste</option>
+                            <option value="6">Puntarenas</option>
+                            <option value="7">Limon</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Canton</label>
+                        <div class="controls">
+                          <select id="newDivision2" name="countyIdAd"></select>
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Ciudad</label>
+                        <div class="controls">
+                          <input type="text" class="input-medium" name="cityAd"> 
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Residencial</label>
+                        <div class="controls">
+                          <input type="text" class="input-medium specialFields" name="residentialAd"> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span5">
+                      <div class="control-group">
+                        <label class="control-label">Direccion</label>
+                        <div class="controls">
+                          <textarea class="specialFields" name="addressAd" rows="8"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="page4">
+                  <div class="control-group">
+                    <label class="control-label">Incluir mapa de Google?</label>
+                    <div class="controls">
+                      <label class="radio inline" for="radio">
+                        <input type="radio" value="true" id="loadMapYes" name="loadMap">
+                        <span>Si</span> 
+                      </label>
+                      <label class="radio inline" for="radio">
+                        <input type="radio" value="false" id="loadMapNo" name="loadMap" checked="checked">
+                        <span>No</span> 
+                      </label>
+                    </div>
+                  </div>
+                  <div id="googleMap">
+                    <div class="row-fluid">
+                      <div class="span3">
+                        <!--Sidebar content-->
+                        <div class="alert alert-info">Mueva el marcador a la ubicacion de la propiedad. Al concluir presione
+                          el boton
+                          <em>Continuar</em>.</div>
+                        <a id="getDivision2" class="btn" data-toggle="tooltip"
+                        title="Mueve el marcador al canton definido en la direccion">Ir al canton</a>
+                        <br>
+                        <br>
+                        <a id="getPosition" class="btn" data-toggle="tooltip" title="Mueve el marcador a la posicion donde esta Ud. actualmente">Ir a mi ubicacion</a> 
+                      </div>
+                      <div class="span7">
+                        <!--Body content-->
+                        <div id="map_canvas"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="page5">
+                  <div class="row">
+                    <div class="span5">
+                      <div class="control-group">
+                        <label class="control-label">Terreno en &nbsp;mts2</label>
+                        <div class="controls">
+                          <input  class="input-mini specialFields positive-integer" name="lotSizeAd" value="0"> 
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Frente del terreno en mts2</label>
+                        <div class="controls">
+                          <input  class="input-mini specialFields positive-integer" name="frontSizeAd" value="0"> 
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Construccion en mts2</label>
+                        <div class="controls">
+                          <input  class="input-mini specialFields positive-integer" name="constructionSizeAd" value="0"> 
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Habitaciones</label>
+                        <div class="controls">
+                          <input type="number" class="input-mini  specialFields positive-integer" name="bedRoomsAd" value="2"> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span5">
+                      <div class="control-group">
+                        <label class="control-label">Banos</label>
+                        <div class="controls">
+                          <input type="number" class="input-mini  specialFields positive-integer" name="bathRoomsAd" value="1"> 
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Medios banos</label>
+                        <div class="controls">
+                          <input type="number" class="input-mini  specialFields positive-integer" name="partialBathsAd" value="0"> 
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Pisos</label>
+                        <div class="controls">
+                          <input type="number" class="input-mini  specialFields positive-integer" name="floorsAd" value="1"> 
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Cocheras</label>
+                        <div class="controls">
+                          <input type="number" class="input-mini  specialFields positive-integer" name="garagesAd" value="1"> 
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Anno de Construccion</label>
+                        <div class="controls">
+                          <input class="input-mini  specialFields positive-integer" name="yearBuiltAd" value="0" placeholder="1999"> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="page7">
+                  <div class="row">
+                    <div class="span5">
+                      <div class="control-group">
+                        <label class="control-label">Moneda</label>
+                        <div class="controls">
+                          <select name="localCurrencyAd">
+                            <option value="TRUE">Colones</option>
+                            <option value="FALSE">Dolares</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Precio</label>
+                        <div class="controls">
+                          <input class="input-medium  specialFields positive-integer" name="priceAd" required value="0"> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span5"></div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="page6">
+                  <div class="row">
+                    <div class="span5">
+                      <div class="control-group">
+                        <label class="control-label">Titulo del anuncio</label>
+                        <div class="controls">
+                          <input id="titleAd" type="text" class="input-xlarge  specialFields" name="titleAd" required> 
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Descripcion de la &nbsp;propiedad</label>
+                        <div class="controls">
+                          <textarea class="input-block-level  specialFields" name="descriptionAd" rows="8"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span5">
+                      <div class="alert alert-info">
+                        <button type="button" class="close" data-dismiss="alert">×</button>El titulo es el texto que aparecera en los listados de anuncios.
+                        Cree un titulo llamativo para que los compradores se interesen y le den
+                        click a su anuncio.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="page10">
+                  <div class="row">
+                    <div class="span5">
+                      <label class="checkbox" for="checkbox">
+                        <input type="checkbox" name="showNameAd" checked="checked">
+                        <span>Mostrar su nombre en el aviso?</span> 
+                      </label>
+                      <label class="checkbox" for="checkbox">
+                        <input type="checkbox" name="showPhoneAd" checked="checked">
+                        <span>Mostrar su numero de telefono en el aviso?</span> 
+                      </label>
+                      <label class="checkbox" for="checkbox">
+                        <input type="checkbox" name="showEmailAd" checked="checked">
+                        <span>Mostrar su correo en el aviso?</span>
+                        <span></span> 
+                      </label>
+                    </div>
+                    <div class="span5">
+                      <div class="alert">
+                        <button type="button" class="close" data-dismiss="alert">×</button>
+                        <b>Consejo!</b> &nbsp;En la mayoria de los casos es recomendable que el anuncio muestre
+                        su nombre y su telefono. Si le preocupa recibir corrreos no deseados (spam),
+                        se recomienda no mostrar el correo. Su anuncio en crCasas permite que los
+                        Clientes lo contacten por correo aun cuando su correo no se muestre.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="page9">
+                  <div class="row">
+                    <div class="span5">
+                      <h6>Ingrese el Url de su video YouTube.</h6>
+                      <input type="text" id="youTube1Url"
+                      class="input-xlarge  specialFields" name="video01Ad">
+                      <a class="btn btn-link btn-mini" id="deleteYouTube" data-toggle="tooltip"
+                      title="Elimina el video en su anuncio">Borrar</a>
+                      <br>
+                      <h6>
+                        <span style="font-weight: normal;"><i>Por ejemplo: http://www.youtube.com/watch?v=f111MVfWURQ</i></span> 
+                      </h6>
+                      <br>
+                      <a class="btn" id="btnYouTube1" data-toggle="tooltip" title="Cargar el video a su anuncio">Cargar video</a>
+                      <br>
+                      <br>
+                      <div class="alert alert-success">
+                        <button type="button" class="close" data-dismiss="alert">×</button>
+                        <b>Consejo!</b> &nbsp;Cree un video con sus fotos usando&nbsp;&nbsp;
+                        <a href="http://windows.microsoft.com/en-us/windows-live/movie-maker-get-started"
+                        target="_blank">Windows Movie Maker</a> , software gratuito, para que su anuncio sea mas atractivo.
+                        <br> Un ejemplo de un video de una casa creado con Windows Movie Maker se muestra
+                        en el vinculo siguiente:
+                        <a href="http://www.youtube.com/watch?v=f111MVfWURQ"
+                        target="_blank">Video</a> 
+                      </div>
+                    </div>
+                    <div class="span5">
+                      <br>
+                      <br>
+                      <div name="youTube1" id="youTube1"></div>
+                    </div>
+                  </div>
+                  <input id="latAd" type="hidden" name="latAd" class="specialFields">
+                  <input id="lngAd" type="hidden" name="lngAd" class="specialFields">
+                  <input id="adIdAd" type="hidden" name="adIdAd" class="specialFields">
+                  <input id="viewCountAd" type="hidden" name="viewCountAd" class="specialFields">
+                  <input id="actionAd" type="hidden" name="actionAd">
+                  <input id="adTypeAd" type="hidden" name="adTypeAd" class="specialFields">
+                  <input id="adIdAd" type="hidden" name="adIdAd" class="specialFields">
+                  <input id="statusAd" type="hidden" name="statusAd" class="specialFields">
+                  <input id="fbIdAd" type="hidden" name="fbIdAd">
+                  <input id="formAdSubmit" type="submit" value="Submit" style="visibility:hidden"> 
+                </div>
+                <div class="tab-pane" id="page8">
+                  <div>
+                    <div class="row">
+                      <div class="alert"><span class="badge badge-success">1</span> Seleccione el archivo y <span class="badge badge-info">2</span> Espere hasta que todas las fotos hayan subido para publicar su anuncio .</div>
+                    </div>
+                    <div class="row">
+                      <!-- The file upload form used as target for the file upload widget -->
+                      <div id="fileupload">
+                        <!-- Redirect browsers with JavaScript disabled to the origin page -->
+                        <noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;input
+                          type="hidden" name="redirect" value="http://blueimp.github.com/jQuery-File-Upload/"&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript>
+                        <!--
+                        The fileupload-buttonbar contains buttons to add/delete files and start/cancel
+                        the upload -->
+                        <div class="row fileupload-buttonbar">
+                          <div class="span7">
+                            <!-- The fileinput-button span is used to style the file input field as
+                            button -->
+                            <span class="btn btn-success fileinput-button">
+                                        <i class="icon-plus icon-white"></i>
+                                        <span>Seleccionar archivos...</span>
+                            <input type="file" name="files[]" multiple=""> 
+                            </span>
+                            <button type="reset" class="btn btn-warning cancel">
+                              <i class="icon-ban-circle icon-white"></i>
+                              <span>Cancelar</span> 
+                            </button>
+                            <button type="button" class="btn btn-danger delete">
+                              <i class="icon-trash icon-white"></i>
+                              <span>Borrar</span> 
+                            </button>
+                            <input type="checkbox" class="toggle"> 
+                          </div>
+                        </div>
+                        <br>
+                        <div class="fileupload-content">
+                          <!-- <table class="files"></table>-->
+                          <!-- The table listing the files available for upload/download -->
+                          <table role="presentation" class="table table-striped">
+                            <tbody id="myFilesContainer" class="files" data-toggle="modal-gallery"
+                            data-target="#modal-gallery"></tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="well">
+                        <h3>Notas</h3>
+                        <ul>
+                          <li>El tamano maximo de los archivos debe ser menor a
+                            <strong>7 MB</strong> .</li>
+                          <li>Solo se permiten archivos de imagen &nbsp;(
+                            <strong>JPG, GIF, PNG</strong> ).</li>
+                          <li>Ud puede hacer un
+                            <strong>drag &amp; drop</strong> de los archivos en su desktop hacia esta pagina con Google Chrome, Mozilla
+                            Firefox y Apple Safari.</li>
+                            <li>Puede cambiar el orden de las fotos en cualquier momento haciendo 
+                                <i>drag &amp; drop</i> en el icono <i class="icon-move"></i> .</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="photosAd"></div>
+                </div>
+              </div>
+            </form>
+            <hr>
+            <ul class="pager">
+              <li>
+                <a class="btn" id="btnPrev">Atras</a> 
+              </li>
+              <li>
+                <a id="btnNext" class="btn">Continuar</a>
+                <a id="btnPublish" class="btn btn-success" data-toggle="modal" href="/tabs/pricing.html"
+                data-target="#publishModal">Publicar</a> 
+              </li>
+            </ul>
+
+              </div>  
+
+
+          </div>
+
+            <div class="row">
+                <div class="span4 offset3">
+                    <button id="btnSaveAd" class="btn btn-large btn-block btn-primary" type="button">Guardar los Cambios</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+          <div id="publishModal" class="modal container hide fade" tabindex="-1"
+          role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h3 id="myModalLabel">Seleccione el tipo de anuncio</h3>
+            </div>
+            <div class="modal-body"></div>
+          </div>
+          <div id="publishResponse" class="modal hide fade" tabindex="-1" data-backdrop="static"
+          data-keyboard="false">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h3 id="resultLabel">Anuncio publicado con exito</h3>
+            </div>
+            <div class="modal-body"></div>
+          </div>
+
+    </div>
+
+
+
+
+
+
+

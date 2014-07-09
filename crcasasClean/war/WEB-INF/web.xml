@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+	<filter>
+	<filter-name>crFilter</filter-name>
+	<filter-class>cr.novatec.crcasas.server.filters.CrawlServlet</filter-class>
+	</filter>
+	
+	<filter-mapping>
+	<filter-name>crFilter</filter-name>
+	<url-pattern>/Crcasas.html</url-pattern>
+	<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	  
+  <!-- Servlets -->
+ 
+ 	  <servlet>
+		<servlet-name>DynamicURIServlet</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.servlet.DynamicURIServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DynamicURIServlet</servlet-name>
+		<url-pattern>/lotes/*</url-pattern>
+	</servlet-mapping>
+  
+	  <servlet>
+		<servlet-name>FacebookServlet</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.servlet.FacebookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FacebookServlet</servlet-name>
+		<url-pattern>/facebook</url-pattern>
+	</servlet-mapping>
+
+    <servlet>
+    <servlet-name>RemoteApi</servlet-name>
+    <servlet-class>com.google.apphosting.utils.remoteapi.RemoteApiServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>RemoteApi</servlet-name>
+    <url-pattern>/remote_api</url-pattern>
+</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>AdToQueue</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.tasks.AdToQueue</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AdToQueue</servlet-name>
+		<url-pattern>/tasks/adtoqueue</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Queue1</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.tasks.Queue1</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Queue1</servlet-name>
+		<url-pattern>/tasks/queue1</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Queue2</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.tasks.Queue2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Queue2</servlet-name>
+		<url-pattern>/tasks/queue2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>QueueMashup3</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.tasks.QueueMashup3</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>QueueMashup3</servlet-name>
+		<url-pattern>/tasks/queueMashup3</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>QueueMashup4</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.tasks.QueueMashup4</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>QueueMashup4</servlet-name>
+		<url-pattern>/tasks/queueMashup4</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Queue4</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.tasks.Queue4</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Queue4</servlet-name>
+		<url-pattern>/tasks/queue4</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Queue5</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.tasks.Queue5</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Queue5</servlet-name>
+		<url-pattern>/tasks/queue5</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>QueueArchive</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.tasks.QueueArchive</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>QueueArchive</servlet-name>
+		<url-pattern>/tasks/queuearchive</url-pattern>
+	</servlet-mapping>	
+	
+		<servlet>
+		<servlet-name>QueueClean</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.tasks.QueueClean</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>QueueClean</servlet-name>
+		<url-pattern>/tasks/queueclean</url-pattern>
+	</servlet-mapping>	
+	
+
+	<servlet>
+		<servlet-name>LoadDivision23</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.load.LoadDivision23</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoadDivision23</servlet-name>
+		<url-pattern>/tasks/loaddivision23</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SetCount</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.load.SetCount</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SetCount</servlet-name>
+		<url-pattern>/tasks/setcount</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Load3Task</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.load.LoadDivision3</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Load3Task</servlet-name>
+		<url-pattern>/tasks/loaddivision3</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Load1Task</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.load.LoadDivision1</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Load1Task</servlet-name>
+		<url-pattern>/tasks/loaddivision1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LoadPrice</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.load.LoadPrice</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoadPrice</servlet-name>
+		<url-pattern>/tasks/loadprice</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Archive</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.load.Archive</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Archive</servlet-name>
+		<url-pattern>/tasks/archive</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>Clean</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.load.Clean</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Clean</servlet-name>
+		<url-pattern>/tasks/clean</url-pattern>
+	</servlet-mapping>
+
+	
+		<servlet>
+		<servlet-name>JsonService</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.load.JsonService</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>JsonService</servlet-name>
+		<url-pattern>/jsonservice</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LoadGeos</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.load.LoadGeos</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoadGeos</servlet-name>
+		<url-pattern>/tasks/loadgeos</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MiniTasks</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.tasks.MiniTasks</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MiniTasks</servlet-name>
+		<url-pattern>/tasks/minitasks</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>QueueBigTasks</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.tasks.QueueBigTasks</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>QueueBigTasks</servlet-name>
+		<url-pattern>/tasks/queuebigtasks</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>BigTasks</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.load.BigTasks</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BigTasks</servlet-name>
+		<url-pattern>/tasks/bigtasks</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteAllData</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.load.DeleteAllData</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DeleteAllData</servlet-name>
+		<url-pattern>/tasks/deletealldata</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetAds</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.load.GetAds</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>GetAds</servlet-name>
+		<url-pattern>/getads</url-pattern>
+	</servlet-mapping>
+
+
+	    <servlet>
+  	<servlet-name>HTMLMailServlet</servlet-name>
+  	<servlet-class>cr.novatec.crcasas.server.servlet.HTMLMailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HTMLMailServlet</servlet-name>
+  	<url-pattern>/task/mail</url-pattern>
+  </servlet-mapping>
+
+	    <servlet>
+  	<servlet-name>AdFormServlet</servlet-name>
+  	<servlet-class>cr.novatec.crcasas.server.servlet.AdFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AdFormServlet</servlet-name>
+  	<url-pattern>/forms/ad</url-pattern>
+  </servlet-mapping>
+ 
+ 	    <servlet>
+  	<servlet-name>NewAdServlet</servlet-name>
+  	<servlet-class>cr.novatec.crcasas.server.servlet.NewAdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>NewAdServlet</servlet-name>
+  	<url-pattern>/forms/new</url-pattern>
+  </servlet-mapping>
+  
+  
+  	    <servlet>
+  	<servlet-name>UserFormServlet</servlet-name>
+  	<servlet-class>cr.novatec.crcasas.server.servlet.UserFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserFormServlet</servlet-name>
+  	<url-pattern>/forms/user</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ForwardServlet</servlet-name>
+  	<servlet-class>cr.novatec.crcasas.server.servlet.ForwardServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ForwardServlet</servlet-name>
+  	<url-pattern>/forms/forward</url-pattern>
+  </servlet-mapping>
+  
+<servlet>
+  	<servlet-name>WelcomeServlet</servlet-name>
+  	<servlet-class>cr.novatec.crcasas.server.servlet.WelcomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>WelcomeServlet</servlet-name>
+  	<url-pattern>/tasks/welcome</url-pattern>
+  </servlet-mapping>
+  
+    	    <servlet>
+  	<servlet-name>ContactFormServlet</servlet-name>
+  	<servlet-class>cr.novatec.crcasas.server.servlet.ContactFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ContactFormServlet</servlet-name>
+  	<url-pattern>/forms/contact</url-pattern>
+  </servlet-mapping>
+
+    	    <servlet>
+  	<servlet-name>PhotoFormServlet</servlet-name>
+  	<servlet-class>cr.novatec.crcasas.server.servlet.PhotoFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>PhotoFormServlet</servlet-name>
+  	<url-pattern>/forms/photo</url-pattern>
+  </servlet-mapping>
+  
+      	    <servlet>
+  	<servlet-name>PayAdServlet</servlet-name>
+  	<servlet-class>cr.novatec.crcasas.server.servlet.PayAdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>PayAdServlet</servlet-name>
+  	<url-pattern>/forms/pagar</url-pattern>
+  </servlet-mapping>
+  
+	<servlet>
+		<servlet-name>MySql</servlet-name>
+		<servlet-class>cr.novatec.crcasas.server.servlet.MySqlServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MySql</servlet-name>
+		<url-pattern>/tasks/mysql</url-pattern>
+	</servlet-mapping>	
+	
+	    <servlet>
+  	<servlet-name>BlobStoreServlet</servlet-name>
+  	<servlet-class>cr.novatec.crcasas.server.blobstore.BlobStoreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>BlobStoreServlet</servlet-name>
+  	<url-pattern>/crcasas/blobstoreservlet</url-pattern>
+  </servlet-mapping>
+
+	    <servlet>
+  	<servlet-name>BlobFileServlet</servlet-name>
+  	<servlet-class>cr.novatec.crcasas.server.blobstore.BlobFileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>BlobFileServlet</servlet-name>
+  	<url-pattern>/crcasas/blobfileservlet</url-pattern>
+  </servlet-mapping>      
+      <servlet>
+  	<servlet-name>BlobCrossServlet</servlet-name>
+  	<servlet-class>cr.novatec.crcasas.server.blobstore.BlobCrossServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>BlobCrossServlet</servlet-name>
+  	<url-pattern>/crcasas/blobcross</url-pattern>
+  </servlet-mapping>
+  
+  
+         <display-name>Restlet servlet</display-name>
+
+         <servlet>
+                 <servlet-name>RestletServlet</servlet-name>
+                 <servlet-class>org.restlet.ext.servlet.ServerServlet</servlet-class>
+                 <init-param>
+                         <param-name>org.restlet.application</param-name>
+                         <param-value>cr.novatec.crcasas.server.restless.RestApp</param-value>
+                 </init-param>
+         </servlet>
+
+	<!-- Catch all requests -->
+	<servlet-mapping>
+		<servlet-name>RestletServlet</servlet-name>
+		<url-pattern>/restlet/*</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- Error pages -->	
+	<error-page>
+  		<error-code>500</error-code>
+  		<location>/404.html</location>
+	</error-page>
+  
+    <!-- Security Constraints -->
+      <security-constraint>
+        <web-resource-collection>
+            <url-pattern>/tasks/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>admin</role-name>
+        </auth-constraint>
+    </security-constraint>
+  
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>home.html</welcome-file>
+  </welcome-file-list>
+  
+  <auto-id-policy>
+  legacy
+</auto-id-policy>
+
+</web-app>

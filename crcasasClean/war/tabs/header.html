@@ -1,0 +1,98 @@
+<nav id="mainTab" class="navbar navbar-inverse navbar-fixed-top myNavBar" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a id="homeLink" class="navbar-brand  hashpage" rel='tooltip' href="#home"
+							data-placement='bottom'
+							data-toggle="tab"
+							data-original-title='Ir a pagina principal'>crCasas.com</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      
+      		<li id="search-li" class="active ">
+	      		<p>
+					<a href="#buscar" id="search-id"
+								class="btn btn-default navbar-btn  hashpage" rel='tooltip'
+								data-placement='bottom'
+								data-toggle="tab"
+								data-original-title='Encuentre propiedades a la venta y alquiler'>
+								<i class="fa fa-search" class=""></i>&nbsp;Buscar</a>	      		
+	      		</p>
+
+			</li>
+      
+      			
+      
+					<li id="anuncio-li" >
+						<form id="anuncio-frm" class="navbar-form" rel='tooltip'
+							data-placement='bottom'
+							data-original-title='Digite el n&uacute;mero del anuncio para ver un anuncio especifico'>
+							<div class="col-md-3">
+								<div class="input-group" style="width:135px">
+											<input id="anuncio-id" class="form-control input-small positive-integer"
+												type="text" placeholder="No. anuncio" data-mask="9999999">
+	
+											<a href="#anuncio" id="anuncio-btn" class="btn btn-default input-group-addon" type="button"
+												data-target="#anuncio">Ir</a>
+								</div>	
+								</div>							
+						</form>
+					</li>
+					<li id="advertise-li"><p>
+							<a href="#anunciar" id="advertise-id"
+								class="btn btn-primary navbar-btn  hashpage" rel='tooltip'
+								data-placement='bottom'
+								data-toggle="tab"
+								data-original-title='Anuncie su propiedad'>Anunciar &raquo;</a>
+							<a href='/publicar.html?adId=0' style="display:none;" id="advertise-id-user"
+								class="btn btn-primary navbar-btn" rel='tooltip'
+								data-placement='bottom'
+								data-original-title='Ingrese un anuncio'>Ingresar anuncio &raquo;</a>
+							<a href='/misanuncios.html' style='display:none;' id='advertise-id-agent'
+								class='btn btn-primary navbar-btn' rel='tooltip'
+								data-placement='bottom'
+								data-original-title='Actualize sus anuncios'>Mis Anuncios &raquo;</a>								
+						</p></li>
+					<li id="about-li" class="hidden-sm hidden-xs"><a href="#acerca" class=" hashpage" id="about-id"
+						rel='tooltip' data-placement='bottom'
+						data-toggle="tab"
+						data-original-title='Acerca de crCasas'>Acerca de</a></li>
+
+					<li id="wall-li" class="hidden-sm hidden-xs"><a href="#muro" class="hashpage" id="wall-id"
+						rel='tooltip' data-placement='bottom'
+						data-toggle="tab"
+						data-original-title='Escribe en nuestro muro'>Muro</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+						<li>
+							<button id='login-btn' disabled class='btn btn-primary navbar-btn enableAfterFBInit hideOnFBconnected showOnFBnot_authorized showOnFBunknown'
+								type='button' rel='tooltip' data-placement='bottom'
+								data-original-title='Ingrese a crCasas usando Facebook Connect'>
+								<i class='icon-user icon-white'></i>&nbsp;&nbsp;Ingresar
+							</button>
+						</li>
+						<li id='user-picture-canvas' style="display: none;" class="showOnFBconnected hideOnFBnot_authorized hideOnFBunknown"><img id='user-picture' src=""
+							alt="crcasas"></li>
+				
+					<li id='logout-btn' class="dropdown showOnFBconnected hideOnFBnot_authorized hideOnFBunknown" style="display: none;">
+			          <a id="user-name" href="#" class="dropdown-toggle"
+							data-toggle="dropdown"></a>
+							<ul class="dropdown-menu">
+								<li><a id="logout-clk" href="#home">Salir</a></li>
+							</ul>
+			        </li>
+					
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

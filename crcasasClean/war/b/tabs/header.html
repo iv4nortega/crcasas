@@ -1,0 +1,88 @@
+
+<nav class="navbar nav-tabs navbar-inverse navbar-fixed-top main-navbar"
+	id="mainTab">
+	<div class="navbar-inner">
+		<div class="container">
+			<div class="navbar-header">
+
+				<button id="collapse-btn" type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".main-navbar"> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span>
+				</button> 
+				<a id="homeLink" class="navbar-brand" href="#home"><img src="http://lh3.ggpht.com/-y3huVZQW1Nwwckl430_8epl_S2glSPHueVClB7gC2I1_RujQC-JtJJo0BfCg6IVmEplTMe__lz6yXvFOw=s100"></a>
+			</div>
+			<div class="collapse navbar-collapse  in">
+				<ul class="nav navbar-nav sub-nav">
+
+					<li id="search-li" class="hidden-sm hidden-xs"><button href="#buscar"
+							class="btn btn-success navbar-btn" id="search-id" rel='tooltip'
+							data-placement='bottom'
+							data-original-title='Encuentre propiedades a la venta y alquiler'>Buscar</button></li>
+
+
+					<li id="anuncio-li" style="margin-left: 12px">
+						<form id="anuncio-frm" class="navbar-form" rel='tooltip'
+							data-placement='bottom'
+							data-original-title='Digite el numero del anuncio para ver un anuncio especifico'>
+							<div class="input-append">
+								<input id="anuncio-id" class="input-small positive-integer"
+									type="text" placeholder="# anuncio" data-mask="9999999">
+								<button id="anuncio-btn" class="btn btn-success" type="button"
+									data-target="#anuncio">Ir</button>
+							</div>
+						</form>
+					</li>
+
+					<li id="advertise-li"><p style="margin-left: 8px">
+							<a href="#anunciar" id="advertise-id"
+								class="btn btn-primary navbar-btn" rel='tooltip'
+								data-placement='bottom'
+								data-href="/anunciar"
+								data-original-title='Anuncie su propiedad'>Anunciar &raquo;</a>
+						</p></li>
+					<li id="about-li" class="hidden-sm hidden-xs"><a href="#acerca" class="" id="about-id"
+						rel='tooltip' data-placement='bottom'
+						data-original-title='Acerca de crCasas'>ACERCA DE</a></li>
+
+					<li id="wall-li" class="hidden-sm hidden-xs"><a href="#muro" class="" id="wall-id"
+						rel='tooltip' data-placement='bottom'
+						data-original-title='Escribe en nuestro muro'>MURO</a></li>
+
+				</ul>
+
+				<div class=" pull-right">
+					<ul class="nav navbar-nav hidden-sm hidden-xs" >
+						<li>
+							<button id='login-btn' class='btn btn-primary navbar-btn'
+								type='button' rel='tooltip' data-placement='bottom'
+								data-original-title='Ingrese a crCasas usando Facebook Connect'>
+								<i class='icon-user icon-white'></i>&nbsp;&nbsp;Ingresar
+							</button>
+						</li>
+
+						<li id='user-picture-canvas' style="display: none;"><img id='user-picture' src=""
+							alt="crcasas"></li>
+						<li id='logout-btn' class="dropdown" style="display: none;"><a
+							id="user-name" href="#" class="dropdown-toggle"
+							data-toggle="dropdown"> </a>
+							<ul class="dropdown-menu">
+								<li><a id="logout-clk" href="#home">Salir</a></li>
+							</ul></li>
+
+
+
+					</ul>
+
+				</div>
+
+
+			</div>
+			<!--/.nav-collapse -->
+
+
+
+		</div>
+	</div>
+</nav>

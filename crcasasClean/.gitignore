@@ -13,7 +13,11 @@ nbproject/private/
 *.out
 
 ## other
-war
+war/WEB-INF/appengine-generated
+war/WEB-INF/classes
+war/WEB-INF/deploy
+war/WEB-INF/lib
 gwt-unitCache
 .google_apis
-
+.gwt
+.settings

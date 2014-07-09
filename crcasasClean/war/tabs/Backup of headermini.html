@@ -1,0 +1,49 @@
+<nav class="navbar nav-tabs navbar-inverse navbar-fixed-top"
+	id="mainTab">
+	<div class="navbar-inner">
+		<div class="container">
+			<div class="navbar-header">
+
+				<button id="collapse-btn" type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".main-navbar"> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span>
+				</button> 
+				<a class="navbar-brand" href="http://www.crcasas.com">crCasas.com</a>				
+			</div>
+			<div class="collapse navbar-collapse main-navbar in">
+				<div class=" pull-right">
+					<ul class="nav navbar-nav hidden-sm hidden-xs" >
+						<li>
+							<button id='login-btn' class='btn btn-primary navbar-btn enableAfterFBInit hideOnFBconnected showOnFBnot_authorized showOnFBunknown'
+								type='button' rel='tooltip' data-placement='bottom'
+								data-original-title='Ingrese a crCasas usando Facebook Connect'>
+								<i class='icon-user icon-white'></i>&nbsp;&nbsp;Ingresar
+							</button>
+						</li>
+
+						<li id='user-picture-canvas'  style="display: none;" class="showOnFBconnected hideOnFBnot_authorized hideOnFBunknown"><img id='user-picture' src=""
+							alt="crcasas"></li>
+						<li id='logout-btn' class="dropdown showOnFBconnected hideOnFBnot_authorized hideOnFBunknown" style="display: none;"><a
+							id="user-name" href="#" class="dropdown-toggle"
+							data-toggle="dropdown"> </a>
+							<ul class="dropdown-menu">
+								<li><a id="logout-clk" href="#home">Salir</a></li>
+							</ul></li>
+
+
+
+					</ul>
+
+				</div>
+
+
+			</div>
+			<!--/.nav-collapse -->
+
+
+
+		</div>
+	</div>
+</nav>

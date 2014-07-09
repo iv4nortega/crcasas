@@ -1,0 +1,283 @@
+<!DOCTYPE html >
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" xmlns:fb="http://ogp.me/ns/fb#"> <!--<![endif]-->
+
+    <head>
+        <!-- Force latest IE rendering engine or ChromeFrame if installed -->
+        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+ 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description"   	content="Anuncie gratis su propiedad en crCasas" />
+        <meta name="keywords"      	content="casas Costa Rica, venta de casas, casas, casa, propiedades, lotes, alquileres, bienes raíces, apartamentos, casas, condominios, edificios, lotes, fincas, quintas, san jose, alajuela, heredia, cartago, puntarenas, limon, guanacaste" />
+        <meta name="title" 			content="crCasas: La Pagina de Bienes Raices de Costa Rica"/>   
+        <meta name="revisit-after" content="1 days" />
+	    <meta name="rating"        content="general" />
+        <meta name="language"      	content="es" />
+
+        <title>Anuncie gratis su propiedad en crCasas</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+        <!-- Bootstrap CSS Toolkit styles -->
+         
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+		
+		<link
+			href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+			rel="stylesheet">
+	 
+        <link rel="stylesheet" href="/css/ui-lightness/jquery-ui-1.10.0.custom.css">
+
+        <link rel="stylesheet" href="/css/facebook.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/photos.css">
+
+        <!-- Bootstrap CSS fixes for IE6 -->
+        <!--[if lt IE 7]><link rel="stylesheet" href="http://blueimp.github.com/cdn/css/bootstrap-ie6.min.css"><![endif]-->
+
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-23115758-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+
+		<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+</head>
+    <body >
+
+        <!-- facebook -->
+        <div id="fb-root"></div>
+ 
+ 	 			<div id="header">
+	 			</div>
+ 
+         <!--[if lt IE 10]>
+            <p class="chromeframe">Ud esta usando una version <strong>antigua</strong> de Internet Explorer. Por esta razon no podra subir fotos, aunque si podra guardar y editar su anuncio. Por favor <a href="http://browsehappy.com/">actualice su browser</a> para mejorar su experiencia.</p>
+            <br>
+        <![endif]-->	 			
+
+			<div id="loadingWrapper">
+
+			</div>
+
+            <div id="main" class="container" >
+                
+         </div>   
+              <div id="push"></div>
+
+
+        <footer id="footer" >
+                 </footer>
+
+       <!-- Modals -->
+
+	<!-- Modal -->
+
+<div class="modal fade" id="cancelDialog" tabindex="-1" role="dialog" aria-labelledby="Cancelar" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Cancelar</h4>
+        </div>
+        <div class="modal-body">
+        	Todos los nuevos cambios se perderan. Desea continuar?
+        </div>
+        <div class="modal-footer">
+          <button id="" type="button" class="btn btn-default" data-dismiss="modal">No</button>
+          <a href="/misanuncios.html" class="btn btn-danger" >Si</a>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+ 
+       <!-- Hidden -->
+        <div style="display: none;">
+            <form id="formUser" class="custom-form" action="/forms/user" method="post" target="result">
+                <input id="idF01" type="hidden" name="idF01" >
+                <input id="emailF01" type="hidden" name="emailF01" >
+                <input id="firstNameF01" type="hidden" name="firstNameF01" >
+                <input id="lastNameF01" type="hidden" name="lastNameF01" >
+                <input id="formUserSubmit" type="submit" value="Submit" style="visibility:hidden">
+            </form>
+        </div>
+        
+        
+
+        <div style="display: none;">
+            <form id="formNew" class="custom-form" action="/forms/new" method="post" target="result">
+                <input id="emailNewAd" type="hidden" name="emailNewAd" >
+                <input id="firstNameNewAd" type="hidden" name="firstNameNewAd" >
+                <input id="lastNameNewAd" type="hidden" name="lastNameNewAd" >
+                <input id="fbIdNewAd" type="hidden" name="fbIdNewAd" >
+ 
+                <input id="formNewSubmit" type="submit" value="Submit" style="visibility:hidden">
+            </form>
+        </div>
+
+        <div style="display: none;">
+            <form id="photoServlet" class="custom-form" action="/forms/photo" method="post" target="result">
+                <input id="sourceKeyPhoto" type="hidden" name="sourceKeyPhoto" >
+                <input id="idPhoto" type="hidden" name="idPhoto" >
+				<input id="keyPhoto" type="hidden" name="keyPhoto" >      
+				<input id="positionPhoto" type="hidden" name="positionPhoto" >				          
+                <input id="fbIdPhoto" type="hidden" name="fbIdPhoto" >
+                <input id="actionPhoto" type="hidden" name="actionPhoto" >
+                <input id="photoServletSubmit" type="submit" value="Submit" style="visibility:hidden">
+            </form>
+        </div>
+
+        <div style="display: none;">
+            <a id="gotoPay" href=""></a>
+        </div>
+
+ <!-- Modal -->
+
+	<div id="confimDelete" class="modal hide fade">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal"
+				aria-hidden="true">&times;</button>
+			<h3>Borrar</h3>
+		</div>
+		<div class="modal-body">
+			<p>Desea borrar la imagen?</p>
+		</div>
+		<div class="modal-footer">
+			<a href="#" class="btn">Cancelar</a> <a href="#" class="btn btn-primary">Borrar</a>
+		</div>
+	</div>
+
+	<iframe NAME="result" style="visibility: hidden; display: none"	width="3" height="3"> </iframe>
+        
+        <!-- Templates -->
+
+        <script id="photoViewTemplate" type="text/x-jsrender">
+
+                <li class="span3 adPhoto">
+                    		
+    <div class="thumbnail">
+		<a name="{{>key}}">&times; </a>
+      	<img id="{{>key}}"  src="{{>thumbnail_url}}"  class="fileKey">
+    </div>
+	
+				</li>
+
+        </script>
+
+	<script id="photoViewTemplate2" type="text/x-jsrender">
+
+<tr>
+
+<td > <img id="{{>key}}" src="{{>big}}=s96-c"  class="fileKey img-thumbnail" alt="crcasas"  height="96"> 
+</td>
+<td  class="text-center maxbox"> {{>name}} 
+</td>
+
+<td >
+	<a name="{{>key}}" class="btn btn-xs btnDeleteAd btn-danger" data-adid="{{>id}}"><i class="icon-trash"> Borrar</i></a>
+</td>
+
+</tr>
+                  
+        </script>
+
+
+
+
+
+
+	<script id="uploadTemplate" type="text/x-jsrender">
+    <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+
+			<li class="fileupload fileupload-new"
+					 data-provides="fileupload">
+				<div class="fileupload-preview thumbnail"
+					style="width: 200px; height: 150px;">
+				</div>
+				<div>
+					<span class="btn btn-file"> 
+						<span class="fileupload-new">Seleccionar</span> 
+						<span class="fileupload-exists">Cambiar </span> 
+						<input class="fileuploadInput" type="file" />
+					</span>
+					<button class="btn btn-primary fileupload-exists">Enviar</button>
+					<a href="#"
+			       		class="btn btn-link fileupload-exists"
+		           		data-dismiss="fileupload"><i class="icon-trash"></i>
+					</a>
+				</div>
+			</li>
+    </form> 
+    </script>
+
+        <!-- JavaScript libraries -->
+        
+        <!-- Shim to make HTML5 elements usable in older Internet Explorer versions -->
+        <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+        
+        <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.1.min.js">\x3C/script>')</script>
+		
+		       <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script>window.jQuery.ui || document.write('<script src="/js/vendor/jquery-ui-1.10.0.custom.min.js">\x3C/script>')</script>
+		
+		-->
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>
+		window.jQuery
+				|| document
+						.write('<script src="/js/vendor/jquery-1.11.0.min.js">\x3C/script>')
+	</script>		
+
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	
+		<script src="/js/vendor/jquery-ui-1.10.0.custom.js"></script>
+
+
+        <script src="/js/plugins/jquery.cookie.js"></script> 
+
+        <script src="/js/fbscript.js"></script>
+
+        <script src="/js/plugins/jquery.form.js"></script> 
+
+        <script src="/js/plugins/jquery.numeric.js"></script>
+
+
+        <!-- JQuery Validation Plugin -->
+
+	<script src="/js/vendor/jquery.validate.min.js"></script>
+	<script src="/js/vendor/additional-methods.min.js"></script>
+
+
+
+        <script src="/js/plugins.js"></script>
+        <script src="/js/plugins/jsrender.js"></script>
+
+        <script src="/js/util.js"></script>
+        <script src="/js/photos.js"></script>
+       <script src="/js/header.js"></script>
+
+        <script src="/js/publicar.js"></script>
+        
+ 
+ 
+    </body>
+
+
+
+    
+</html>

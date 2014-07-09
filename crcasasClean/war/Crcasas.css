@@ -1,0 +1,337 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+
+a.fb-button {
+    color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.fb-button {
+    background: #5F78AB;
+    background-image: url('fbicons.png');  /*COPY TO YOUR OWN IMAGE STORE*/
+    background-repeat: no-repeat;
+    background-position: -1px -81px;
+    border-top: 1px solid #29447E;
+    border-right: 1px solid #29447E;
+    border-bottom: 1px solid #1A356E;
+    border-left: 1px solid #29447E;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8A9CC2;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8A9CC2;
+    cursor: pointer;
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    height: 23px;
+    line-height: 23px;
+    padding: 0px 5px 0px 30px;
+    text-align: left;
+}
+
+
+        #loading {
+            border: 1px solid #ccc;
+            position: absolute;
+            left: 45%;
+            top: 40%;
+            padding: 2px;
+            z-index: 20001;
+            height: auto;
+        }
+
+        #loading a {
+            color: #225588;
+        }
+
+        #loading .loadingIndicator {
+            background: white;
+            font: bold 13px tahoma, arial, helvetica;
+            padding: 10px;
+            margin: 0;
+            height: auto;
+            color: #444;
+        }
+
+		.rightpos {
+			height: 600px;
+			width: 120px;
+		    display:block;
+		    border: 1px solid blue;
+		 			    
+		
+		}
+        #loadingMsg {
+            font: normal 10px arial, tahoma, sans-serif;
+        }    
+        
+        .instructionBox22 {
+			padding : 20px;
+		}  
+		
+		 .formCell22 {
+			padding-left : 20px;
+		} 
+		
+		 .simplePanel {
+			padding : 0;
+			margin: 0;
+			background: red;
+		} 
+		
+		.landHeader {
+		font-size: 30px;
+		font-family: Arial Black, Gadget, sans-serif;
+		color: #36648B;
+		letter-spacing:-1px;
+		text-align:center;
+		
+	}
+		 
+			.landSubHeader {
+		font-size: 26px;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #4D4D4D;
+		letter-spacing:-1px;
+		
+	}
+	
+				.landText {
+		font-size: 16px;
+		font-height: 18px;
+		font-family: Arial, Helvetica, serif;
+		padding-right: 15px;
+		
+	}
+	
+	.landText p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	}
+	
+	
+	.tabHeader1  {
+	text-align:center;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #003168;
+	}
+	
+		.tabHeader2  {
+	text-align:center;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #003168;
+
+	}
+		.tabHeader2:hover  {
+	color: #7FA54C;
+
+	}	
+	
+	.floatright
+	{
+	text-align:right;
+	margin-top: 10px;
+	margin-right: 20px;
+	height: 30px;
+	border: 1px solid blue;
+	}
+	
+	.userName
+	{
+	font-style:italic;
+	text-align: right;
+	padding-top: 30px;
+	}
+	
+
+	.adAddress
+	{
+	text-transform:capitalize;	
+	font-family: helvetica, arial, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 14px;
+	word-spacing: 0px;
+	color: #211922;
+	}
+	
+	.adPrice
+	{
+	font-family: helvetica, arial, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 14px;
+	word-spacing: 0px;
+	color: #211922;
+	}
+	
+	.adFooter
+	{
+	font-family: helvetica, arial, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 14px;
+	word-spacing: 0px;
+	color: #211922;
+	}
+	
+	
+	.wrap10 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 14px;
+  color: #211922;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  background: #fff;
+  margin-top: 10px;
+
+}
+
+.title10 {
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.info10 {
+  text-align: left;
+  color: #8C7E7E;
+   margin-bottom: 3px;
+}
+
+.leftcol10 {
+  float: left;
+  width: 50%;
+   text-align: left;
+
+}
+
+.rightcol10 {
+  float: right;
+  width: 50%;
+  text-align: right;
+  
+}
+
+.address10 {
+	text-transform:capitalize;	
+	
+}	
+
+#leftLayout {
+  float: left; 
+}
+
+#rightLayout {
+  float: right; 
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.button {
+   color: red;
+  
+}
+
+.whiteCell {
+	color: White;
+}
+
+.whiteText  
+	{  
+	    font-size: large;  
+	    text-align: center;
+	    color: white;  	
+	    text-align: center;
+	        
+}
+
+.postit {
+	background: rgb(255,255,136); /* Old browsers */
+	background: -moz-linear-gradient(-45deg, rgba(255,255,136,1) 77%, rgba(255,255,214,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(77%,rgba(255,255,136,1)), color-stop(100%,rgba(255,255,214,1))); /*Chrome,Safari4+*/
+	background: -webkit-linear-gradient(-45deg, rgba(255,255,136,1) 77%,rgba(255,255,214,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, rgba(255,255,136,1) 77%,rgba(255,255,214,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, rgba(255,255,136,1) 77%,rgba(255,255,214,1) 100%); /* IE10+ */
+	background: linear-gradient(-45deg, rgba(255,255,136,1) 77%,rgba(255,255,214,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffff88',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+	
+	
+}
+
+.footerLabel {
+	 font-family: Helvetica, Arial, sans-serif;
+  font-size: 8px;	
+    font-weight: bold;
+  text-align: center;
+  color: #8C7E7E;
+	
+}
+
+.button-link {
+	font-family: Helvetica, Arial, sans-serif;
+  	font-size: 12px;	
+    padding: 10px 15px;
+    background: #4479BA;
+    color: #FFF;
+    text-align: center;
+    font-width: bold;
+    cursor:pointer;
+}
+
+
+.fb-comments, .fb-comments iframe[style] {width: 100% !important;}
+
+
+.fblogin {
+	text-align: right; 
+	max-height:30px;
+	<!--[if IE 8]>
+		max-height: none\9;
+	<![endif]-->
+	overflow:hidden;
+}
+
+
+.tabsHeader1 {
+  text-align: center;  
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;	
+  text-align: center;
+  font-width: bold;
+  color: darkblue;
+
+}
+
+.tabsHeader2 {
+  text-align: center;  
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;	
+  text-align: center;
+  color: darkblue;
+}
+
+.tabsNormal {
+}
+
+
+.tabsAd {
+cursor:pointer;  
+padding:15px;
+width: 750px;
+color: gray29;
+}
