@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[TITLE]</title>
+  </head>
+  <body style="width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 14px; margin: 0; padding: 0;"><style type="text/css">
+.btn:focus { outline: 5px auto -webkit-focus-ring-color !important; outline-offset: -2px !important; }
+.btn:hover { color: #ffffff !important; text-decoration: none !important; }
+.btn:focus { color: #ffffff !important; text-decoration: none !important; }
+.btn:active { outline: 0 !important; -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important; box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important; background-color: #357ebd !important; border-color: #3071a9 !important; }
+</style> 
+ <table cellpadding="0" cellspacing="0" border="0" style="width: 100% !important; line-height: 100% !important; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: rgb(242, 242, 242); margin: 0; padding: 0;" bgcolor="rgb(242, 242, 242)"><tr style="height: 14px;"></tr><tr><td style="border-collapse: collapse;">  
+  <table cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tr><td width="10" valign="top" style="border-collapse: collapse; background-color: rgb(242, 242, 242);" bgcolor="rgb(242, 242, 242)"></td>
+    <td width="580" valign="top" style="border-collapse: collapse;">
+                    <table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 100% !important; line-height: 100% !important; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: rgb(242, 242, 242); margin: 0; padding: 0;" bgcolor="rgb(242, 242, 242)"><tr bgcolor="white"><td style="border-collapse: collapse;"></td></tr><tr bgcolor="white"><td style="border-collapse: collapse; padding: 0px 20px 40px;">
+                                <p style="margin: 1em 0;">
+                                <span style="float: left;"><a href="http://www.crCasas.com" target="_blank" style="color: #EB4102; font-weight: normal; text-decoration: underline; -webkit-text-size-adjust: none !important;"><img align="none" height="42"  src="http://lh3.ggpht.com/-y3huVZQW1Nwwckl430_8epl_S2glSPHueVClB7gC2I1_RujQC-JtJJo0BfCg6IVmEplTMe__lz6yXvFOw" style="width: 131px; height: 42px; line-height: 100%; outline: none; text-decoration: none;  border: 0;" width="131" /></a>&#13;</span>
+                                <span style="float: right;"><a href="http://www.crCasas.com/enviar?id=[ADID]" target="_blank"><img src="http://lh3.ggpht.com/2RhdBjI4SC3f2ylbN_UzCJ5posf1MAau4lQyjiMMyAX2_0Q6H_AgmwbSj9hF5xb2K2LtffM4DAvGwTDWvk3n" width="32" height="32" border="0" alt="crCasas" style=" outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; padding: 0; border: none;" /></a></span>
+                                </p>
+                            </td>
+                        </tr><tr bgcolor="white"><td align="left" style="padding-top: 0px; padding-bottom: 40px; border-collapse: collapse;">
+                                    <p style="font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 32px; line-height: 110% !important; font-weight: 300; letter-spacing: -0.08em; text-align: center; color: #0098f8; margin: 0; padding: 0;" align="center">[TITLE]</p>
+                            </td>
+                        </tr><tr bgcolor="white"><td style="border-collapse: collapse;"></td></tr><tr><td align="center" bgcolor="white" style="border-collapse: collapse;">
+                                    <img src="[IMAGEURL]" alt="crcasas" style="line-height: 1.428571429; border-radius: 4px; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; display: inline-block; height: auto; width: 80%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; background-color: #ffffff; padding: 4px; border: 1px solid #dddddd;" /></td></tr><tr bgcolor="white" style="font-size: 26px; font-weight: 300; letter-spacing: -0.08em; color: #666; text-align: center;" align="center"><td style="border-collapse: collapse;">
+                            <p style="margin: 1em 0; line-height: 120% !important;">[PRICE]<br/>[ADDRESS]</p>
+                         </td></tr><tr bgcolor="white"><td style="border-collapse: collapse;">
+                            <table width="100%" cellspacing="0" cellpadding="5" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tbody><tr><td align="center" style="vertical-align: top; display: table-cell; border-collapse: collapse; font-family: 'Helvetica','Arial',sans-serif; font-size: 16px; line-height: 24px; color: #444; width: 33%;" valign="top">
+                                        <a href="tel:[PHONE]" style=""><img src="http://icons.iconarchive.com/icons/martz90/circle/64/phone-icon.png" border="0" width="64" height="64" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none;" /><br />[PHONE]</a>
+                                    </td>
+                                    <td align="center" style="vertical-align: top; display: table-cell; border-collapse: collapse; font-family: 'Helvetica','Arial',sans-serif; font-size: 16px; line-height: 24px; color: #444; width: 33%;" valign="top">
+                                        <a href="sms:[PHONE]" style=""><img src="http://icons.iconarchive.com/icons/martz90/circle/64/facebook-messenger-icon.png" border="0" width="64" height="64" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none;" /><br />[PHONE]</a> 
+                                    </td>
+                                    <td align="center" style="vertical-align: top; display: table-cell; border-collapse: collapse; font-family: 'Helvetica','Arial',sans-serif; font-size: 16px; line-height: 24px; color: #444; width: 33%;" valign="top">
+                                        <a href="mailto:[EMAIL]">
+                                            <img src="http://icons.iconarchive.com/icons/martz90/circle/64/email-icon.png" border="0" width="64" height="64" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none;" /><br>Email</a>
+                                    </td>
+                                </tr></tbody></table></td></tr><tr bgcolor="white"><td style="border-collapse: collapse;"></td></tr><tr bgcolor="white" style="font-size: 14px; font-weight: 300; letter-spacing: -0.08em; color: #666; text-align: center; padding: 40px;" align="center"><td style="border-collapse: collapse;">
+                            <p style="margin: 2em 2em 2em 2em; font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 20px; line-height: 110% !important; font-weight: 300; text-align: center; color: #0098f8; padding: 0;" align="center">[DETAILS]</p>
+                         </td></tr><tr bgcolor="white"><td style="border-collapse: collapse;"></td></tr><tr bgcolor="white"><td style="border-collapse: collapse;"></td></tr><tr bgcolor="white"><td align="center" style="border-collapse: collapse;">
+                            <table width="80%" border="0" cellspacing="0" cellpadding="10" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><thead><tr><th colspan="2" style="background-color: #428bca; vertical-align: top; display: table-cell; border-collapse: collapse; border-right-style: solid; border-right-width: 1px; border-right-color: #3d4247; font-family: 'Helvetica','Arial',sans-serif; font-size: 14px; line-height: 24px; font-weight: normal; text-align: left; color: #fff; padding: 10px;" align="left" bgcolor="#428bca" valign="top">Informaci&oacute;n de contacto</th>
+                                    </tr></thead><tbody>[CONTACTTABLE]</tbody></table></td></tr><tr bgcolor="white"><td style="border-collapse: collapse;"></td></tr><tr bgcolor="white"><td style="border-collapse: collapse;"></td></tr><tr bgcolor="white"><td style="border-collapse: collapse;"></td></tr><tr bgcolor="white"><td align="center" style="border-collapse: collapse;">
+                            <table width="80%" border="0" cellspacing="0" cellpadding="10" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><thead><tr><th colspan="2" style="background-color: #428bca; vertical-align: top; display: table-cell; border-collapse: collapse; border-right-style: solid; border-right-width: 1px; border-right-color: #3d4247; font-family: 'Helvetica','Arial',sans-serif; font-size: 14px; line-height: 24px; font-weight: normal; text-align: left; color: #fff; padding: 10px;" align="left" bgcolor="#428bca" valign="top">Caracter&iacute;sticas</th>
+                                    </tr></thead><tbody>
+[DETAILSTABLE]
+                                </tbody></table></td></tr><tr bgcolor="white"><td style="border-collapse: collapse;"></td></tr><tr bgcolor="white"><td style="border-collapse: collapse;"></td></tr><tr bgcolor="white"><td style="border-collapse: collapse;"></td></tr><tr bgcolor="white"><td align="center" style="border-collapse: collapse;">
+                            <table width="80%" border="0" cellspacing="0" cellpadding="10" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><thead><tr><th colspan="2" style="background-color: #428bca; vertical-align: top; display: table-cell; border-collapse: collapse; border-right-style: solid; border-right-width: 1px; border-right-color: #3d4247; font-family: 'Helvetica','Arial',sans-serif; font-size: 14px; line-height: 24px; font-weight: normal; text-align: left; color: #fff; padding: 10px;" align="left" bgcolor="#428bca" valign="top">Direcci&oacute;n</th>
+                                    </tr></thead><tbody>
+[ADDRESSTABLE]    
+                                </tbody></table></td></tr><tr bgcolor="white"><td style="border-collapse: collapse;"></td></tr><tr><td align="center" bgcolor="white" style="border-collapse: collapse;">
+                                    <p style="margin: 1em 0;"><a href="http://www.crCasas.com#!anuncio=[ADID]" target="_blank" style="display: inline-block !important; margin-bottom: 0; font-size: 14px; font-weight: 500; line-height: 1.428571429 !important; text-align: center; white-space: nowrap; vertical-align: middle; cursor: pointer; border-radius: 4px !important; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; color: #ffffff; background-color: #428bca; padding: 8px 12px; border: 1px solid #428bca;">Ver m&aacute;s</a></p>
+                            </td></tr><tr bgcolor="white"><td style="border-collapse: collapse;"></td></tr><tr><td style="border-collapse: collapse;">
+                                <table bgcolor="#2e3237" width="100%" cellpadding="30" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #2e3237;"><tbody><tr><td align="center" style="border-collapse: collapse; padding: 30px;">
+                                            <p style="font-family: 'Helvetica','Arial',sans-serif; color: #ccc; font-size: 14px; line-height: 24px; text-align: center; margin: 1em 0;" align="center">
+                                                <a href="http://www.crcasas.com/enviar?id=[ADID]" style="text-decoration: none; color: #ffffff;" target="_blank">Reenviar este correo &rarr;</a> 
+                                            </p>
+                                            <p style="font-family: 'Helvetica','Arial',sans-serif; color: #ccc; font-size: 14px; text-align: center; margin: 1em 0;" align="center">
+                                                 &copy; 2013 Novatec Internacional, San Jos&eacute;, Costa Rica</p>
+                                        </td>
+                                    </tr></tbody></table></td>
+                            </tr><tr><td style="border-collapse: collapse;">
+                                    <table width="100%" cellpadding="30" style="margin-top: 10px; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tbody><tr><td align="center" style="border-collapse: collapse;">
+                                                <h3 style="font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 24px; line-height: 28px; padding: 0; font-weight: 300; margin: 0; letter-spacing: -0.05em; text-align: center; color: #fe6d4c;" align="center">Anuncie su propiedad por correo</h3>
+                        <p style="font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 16px; line-height: 20px; font-weight: 300; letter-spacing: -0.05em; text-align: center; color: #666; margin: 0; padding: 0;" align="center"><br />Consiga m&aacute;s clientes. Env&iacute;e por correo un anuncio profesional de su propiedad, con este nuevo servicio gratuito de crCasas<br /><a href="http://www.crcasas.com/anunciar" style="text-decoration: none; color: #000;" target="_blank">Crear anuncio &rarr;</a></p>
+
+                        <div style="padding-top: 20px; padding-bottom: 10px; margin: 0;"><hr style="min-height: 0px; zoom: 1; overflow: hidden; border-top-style: solid; border-top-color: #dedede; border-top-width: 1px; border-bottom-color: #fff; border-bottom-width: 1px; border-bottom-style: solid; margin: 0;" /></div>
+                                                
+                        <p style="font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 14px; font-weight: 300; line-height: 16px; text-align: center; color: #666; margin: 10px 0 1em;" align="center">crCasas suministra tecnolog&iacute;a para ayudarlo a comprar, vender o alquilar propiedades en Costa Rica.<br />Conozca m&aacute;s en <a href="http://www.crCasas.com/" style="text-decoration: none; color: #000;" target="_blank">www.crCasas.com</a>.
+                        </p>
+                        <p style="font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif; color: #999; text-align: center; font-size: 12px; line-height: 16px; margin: 0; padding: 10px 0;" align="center">Por favor no responda a este correo.</p>
+                    </td>
+                </tr></tbody></table></td>
+                            </tr></table></td>
+    <td width="10" valign="top" style="border-collapse: collapse; background-color: rgb(242, 242, 242);" bgcolor="rgb(242, 242, 242)"></td>
+   </tr></table></td>
+ </tr><tr style="height: 14px;"></tr></table></body>
+</html>

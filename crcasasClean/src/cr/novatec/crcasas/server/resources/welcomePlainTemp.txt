@@ -1,0 +1,78 @@
+Información sobre su nuevo anuncio en crCasas.
+
+No puede ver este
+correo?
+Véalo en su navegador ( *%7CARCHIVE%7C* ).
+
+( http://www.crCasas.com )
+
+----------------
+Anuncio # [ADID]
+----------------
+
+*****************************************
+Su nuevo anuncio fue publicado en crCasas
+*****************************************
+
+Estimado(a) [NAME],
+
+Su nuevo anuncio fue publicado en crCasas con las características
+siguientes:
+
+No.: [ADID]
+
+Tipo: [ADTYPE]
+
+Modalidad : [SALETYPE]
+
+T&iacute;tulo: [TITLE]
+
+Direcci&oacute;n: [ADDRESS]
+
+Precio: [PRICE]
+
+V&iacute;nculo: www.crCasas.com#!anuncio=[ADID] ( http://www.crCasas.com#!anuncio=%5BADID%5D )
+
+Modificar: www.crCasas.com/misanuncios.html ( http://www.crCasas.com/misanuncios.html )
+
+Anuncio por email
+-----------------
+
+Incremente sus clientes enviando por email su anuncio a sus
+amigos y cliente.
+
+ENVIAR AHORA ( http://www.crcasas.com/enviar?id=%5BADID%5D )
+
+Comparta su anuncio en Facebook
+-------------------------------
+
+Lleve su anuncio a m&aacute;s de un mill&oacute;n de usuarios de Facebook en
+Costa Rica. Postee su anuncio en Facebook, dele Like y env&iacute;elo a
+sus amigos y clientes.
+
+COMPARTIR EN FACEBOOK ( http://www.crcasas.com/misanuncios.html )
+
+Si te gusta crCasas dale un Like!
+---------------------------------
+
+Te deseamos el mayor de los &eacute;xitos con su anuncio. Si te gustan
+las facilidades que te brinda crCasas visita nuestra p&aacute;gina en
+Facebook y danos un Like!
+
+DAR LIKE! ( http://www.facebook.com/crcasas )
+
+S&iacute;ganos en Facebook! ( www.facebook.com/crcasas )
+
+Copyright © 2013 Novatec Internacional S.A, Todos los derechos
+reservados.
+
+This email was sent to
+*|EMAIL|* ( *%7CEMAIL%7C* )
+
+why did I get this? ( *%7CABOUT_LIST%7C* ) unsubscribe from
+this list ( *%7CUNSUB%7C* ) update subscription preferences (
+*%7CUPDATE_PROFILE%7C* )
+
+*|LIST:ADDRESSLINE|*
+
+*|REWARDS|*

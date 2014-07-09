@@ -1,0 +1,48 @@
+[TITLE]
+-------
+[PRICE]
+-------
+---------
+[ADDRESS]
+---------
+
+Contacto
+--------
+
+[NAME]
+------
+
+[PHONE]
+-------
+
+[EMAIL] ( mailto:%5BEMAIL%5D )
+
+Ver mas fotos y detalles ( http://www.crcasas.com#!anuncio=%5B[ADID]%5D )
+
+Descripcion
+-----------
+
+[DETAILS]
+
+[PROPERTYTABLE]
+
+Caracteristicas
+---------------
+
+[DETAILSTABLE]
+
+Direccion
+---------
+
+[ADDRESSTABLE]
+
+Acerca de crCasas
+
+crCasas es un sitio de Bienes Raíces
+que suministra información sobre casas y propiedades, y
+tecnología para ayudarlo a comprar, alquilar o vender en Costa
+Rica.
+
+Necesita vender su propiedad? Visite
+crCasas.com ( https://www.crcasas.com ) hoy e ingrese gratis su
+anuncio.

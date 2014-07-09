@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='crcasas'>
+
+	<!-- Inherit the core Web Toolkit stuff.                        -->
+	<inherits name='com.google.gwt.user.User' />
+	<inherits name="com.google.gwt.place.Place"/>
+	<inherits name="com.google.gwt.activity.Activity"/>
+	
+	<inherits name='com.google.gwt.maps.GoogleMaps' />
+
+	<inherits name='com.googlecode.objectify.Objectify' />
+	<inherits name="com.smartgwt.SmartGwt" />
+	<inherits name="com.smartgwt.tools.SmartGwtTools" />
+	<!-- inherits name='com.google.gwt.maps.utility.GoogleMapsUtility' -->
+	<inherits name='com.google.gwt.visualization.Visualization' />
+
+	<inherits name="com.google.gwt.json.JSON" />
+
+	<inherits name="com.google.gwt.i18n.I18N" />
+
+	<inherits name="com.google.web.bindery.event.Event" />
+		
+	<!-- Inherit the default GWT style sheet.  You can change       -->
+	<!-- the theme of your GWT application by uncommenting          -->
+	<!-- any one of the following lines.                            -->
+	<inherits name='com.google.gwt.user.theme.clean.Clean' />
+	<inherits name="com.smartgwt.SmartGwt" />
+	<!-- <inherits name='com.google.gwt.user.theme.standard.Standard'/> -->
+	<!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+	<!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+
+	<!-- Other module inherits                                      -->
+	<!-- Specify the app entry point class.                         -->
+
+	<!-- Specify the paths for translatable code                    -->
+	<source path='client' />
+	<source path='shared' />
+	<source path='sdk' />
+
+  	<replace-with class="cr.novatec.crcasas.client.ClientFactoryImpl">
+   <when-type-is class="cr.novatec.crcasas.client.ClientFactory"/>
+   </replace-with> 
+   
+	<entry-point class="cr.novatec.crcasas.client.Home"></entry-point>
+</module>
